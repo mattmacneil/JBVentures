@@ -1,0 +1,321 @@
+@import "mixins";
+@import "vars";
+
+.headliner{
+  font-size: 2.75em;
+  font-family: $headline-font;
+  line-height: 1;
+  overflow-y: visible;
+}
+
+.Hero {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  height: calc(100% - 140px);
+  min-height: 400px;
+  max-height: 800px;
+  background-color: lightgrey;
+  clear: both;
+  @include divshadow($grey);
+}
+
+  .Hero-landing{
+    background-image: url('../../images/Hero-landing.jpg');
+    background-size: cover;
+    background-position: right top;
+  }
+
+  .Hero-video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+
+    video{
+      width: 100%;
+      height: auto;
+      opacity: 0.8;
+    }
+  }
+
+  .Hero-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    background-color: rgba($darkblue, .75);
+  }
+
+    .Hero-left {
+      width: 36.5%;
+      height: 100%;
+      background-color: $green;
+      background-color: rgba($green, .75);
+      padding: 100px 5% 0 5%;
+
+      h1{
+        margin-bottom: 50px;
+      }
+    }
+
+      .greenhaze{
+        @include texthaze(darken($green, 10%));
+      }
+
+.Layout-left{
+  width: 100% - $Right_Side_Width;
+  float: left;
+  padding-right: 5%;
+}
+
+.Layout-right{
+  width: $Right_Side_Width;
+  float: left;
+
+  p{
+    margin-bottom: 25px;
+  }
+
+  p:last-of-type{
+    margin-bottom: 0;
+  }
+}
+
+// LANDING
+
+.Landing-portfolio-container{
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  img{
+    height: 25px;
+  }
+}
+
+.Landing-culture {
+  width: 100%;
+  background-color: $lightgrey;
+  background-image: url('../../images/Landing-culture.jpg');
+  background-size: cover;
+  background-position: right top;
+}
+
+  .Landing-culture-overlay{
+    width: 100%;
+    height: 100%;
+  }
+
+    .Landing-culture-left{
+      width: 36.5%;
+      background-color: $darkblue;
+      background-color: rgba($darkblue, .9);
+
+      h1{
+        margin-bottom: 50px;
+      }
+    }
+
+.Landing-map{
+  width: 100%;
+  display: flex;
+}
+
+  .Landing-map-address{
+    margin: 50px 0 125px 0;
+    padding-left: 50px;
+    background-image: url('../../images/Landing-map-address.png');
+    background-position: left top;
+    background-size: 25px auto;
+    background-repeat: no-repeat;
+
+    span{
+      display: inline-block;
+      margin-bottom: 5px;
+    }
+
+    span:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+  .Landing-map-wrapper{
+    height: 100%;
+    border-radius: 10px;
+    padding: 50px 7.75%;
+  }
+
+    #Landing-map-gmaps{
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+    }
+
+// FOOTER
+
+footer{
+  background-color: $lightblue;
+}
+
+.Footer{
+  background-image: url('../../images/Footer.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: auto 165px;
+}
+
+.Footer-newsletter {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 31.25px;
+  display: flex;
+  @include divshadow(darken($lightblue, 10%));
+}
+
+  .Footer-newsletter-CTA{
+    display: flex;
+    align-items: center;
+  }
+
+    .Footer-newsletter-button{
+      width: 100%;
+      padding: 10px;
+      margin-top: 6.25px;
+      border: 3px solid $white;
+      border-radius: 10px;
+      @include divshadow(darken($green, 10%));
+      cursor: pointer;
+    }
+
+    .NewsletterFields {
+      display: none;
+    }
+
+      .NewsletterFields-Wrapper{
+        width: 100%;
+        display: flex;
+        margin-bottom: 10px;
+
+        input[type="submit"]{
+          width: 82%;
+          margin-left: 18%;
+          border: 0;
+          outline: 0;
+          padding: 10px;
+          margin-bottom: 40px;
+          border-radius: 10px;
+          background-color: $orange;
+          @include divshadow(darken($green, 10%));
+          font-family: "din";
+          color: $black;
+        }
+      }
+
+      .NewsletterFields-left{
+        width: 18%;
+        float: left;
+        display: flex;
+        align-items: center;
+      }
+
+      .NewsletterFields-right{
+        width: 82%;
+        float: left;
+
+        input[type="text"],
+        input[type="email"]{
+          width: 100%;
+          border: 0;
+          outline: 0;
+          border-radius: 10px;
+          padding: 10px;
+          color: $black;
+        }
+      }
+
+.Footer-logo{
+  img{
+    height: 80px;
+  }
+}
+
+.Footer-block-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+  .footer-block{
+    width: 30%;
+    float: left;
+    position: relative;
+
+    a{
+      margin-bottom: 10px;
+      width: 100%;
+      display: inline-block;
+      text-decoration: none;
+
+      &:hover{
+        color: $white;
+        @include fader;
+      }
+    }
+
+    a:last-of-type{
+      margin-bottom: 0;
+    }
+  }
+
+    .Footer-block-social{
+      width: 100%;
+      padding: 9px 25px 5px 5px;
+      border-radius: 10px;
+      margin-bottom: 0px;
+    }
+
+      .Footer-block-social--linkedin{
+        background-image: url('../../images/Footer-block-social--li.png');
+      }
+
+      .Footer-block-social--twitter{
+        background-image: url('../../images/Footer-block-social--tw.png');
+      }
+
+      .Footer-block-home{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url('../../images/Footer-block-social--home.png');
+        border-radius: 10px;
+        padding: 9px 25px 5px 25px;
+
+        a:hover{
+          color: $darkblue;
+        }
+      }
+
+      .Footer-block-social--linkedin,
+      .Footer-block-social--twitter,
+      .Footer-block-home{
+        background-size: auto 60%;
+        background-position: left 10px top 50%;
+        background-repeat: no-repeat;
+        border: 1px solid $darkblue;
+
+        &:hover{
+          padding-right: 30px;
+          @include fader;
+        }
+      }
+
+.Footer-grave{
+  padding: 15px 5% 10px 5%;
+}
+

@@ -1,0 +1,48 @@
+@import "vars";
+
+@mixin bgcover($bg_url: "default-bg.jpg"){
+  background-image: url('../../images/#{$bg_url}');
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+}
+
+@mixin fader($transition_time: 0.3s){
+  -khtml-transition: all $transition_time;
+  -webkit-transition: all $transition_time;
+  -moz-transition: all $transition_time;
+  -o-transition: all $transition_time;
+  -ms-transition: all $transition_time;
+  transition: all $transition_time;
+}	
+
+@mixin rounded($rounded_radius: 5px) {
+  -webkit-border-radius: $rounded_radius;
+  -moz-border-radius: $rounded_radius;
+  -ms-border-radius: $rounded_radius;
+  border-radius: $rounded_radius;
+}
+
+@mixin divshadow($shadow_color: $grey){
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 $shadow_color;
+}
+
+@mixin vertical_gradient($butt: $grey){
+  $button-start: lighten($butt, 10%);
+  background-color: $butt;
+  background-image: -webkit-gradient(linear, left top, left bottom, from( lighten( $butt, 15% ) ), to( $butt ) );
+  background-image: -webkit-linear-gradient(top, $button-start, $butt);
+  background-image: -moz-linear-gradient(top, $button-start, $butt);
+  background-image: -ms-linear-gradient(top, $button-start, $butt);
+  background-image: -o-linear-gradient(top, $button-start, $butt);
+  background-image: linear-gradient(to bottom, $button-start, $butt);
+}
+
+@mixin texthaze($text_shadow_color: $grey){
+  text-shadow: $text_shadow_color 1px 0 15px;
+}

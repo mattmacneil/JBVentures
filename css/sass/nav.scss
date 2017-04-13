@@ -1,0 +1,150 @@
+@import "vars";
+@import "mixins";
+
+
+.Navigation {
+  width: 100%;
+  z-index: 9999;
+  overflow: visible;
+}
+
+  .Navigation-newsbar {
+    width: 100%;
+    height: 40px;
+    display: table;
+  }
+
+    .Navigation-newsbar-align {
+      width: 100%;
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      text-align: right;
+      font-family: "dinlight";
+
+      span{
+        em{
+          font-family: "din"; 
+        }
+      }
+
+      span::after{
+        content: '\21FE';
+        margin-left: 10px;
+      }
+
+    }
+
+  .Navigation-logo {
+    height: 100%;
+    float: left;
+    display: table;
+    position: relative;
+    z-index: 9999;
+  }
+
+    .Navigation-logo-align{
+      width: 100%;
+      height: 100%;
+      display: table-cell;
+      vertical-align: middle;
+      position: relative;
+
+      img{
+        height: 75px;
+        margin-top: 5px;
+      }
+    }
+
+      .Navigation-logo-bg{
+        width: 383px;
+        height: 180px;
+        position: absolute;
+        left: -50px;
+        left: -5vw;
+        top: -40px;
+        background-image: url('../../images/Navigation-logo-bg.png');
+        background-size: 100% 100%;
+      }
+
+  .Navigation-linkbar {
+    width: 100%;
+    height: $Navigation_linkbar_height;
+  }
+
+    .Navigation-linkbar-linkwrap {
+      width: $Right_Side_Width;
+      height: 100%;
+      float: right;
+      padding: 5px 0;
+      display: flex;
+      justify-content: space-between;
+
+      div:first-of-type{
+        .Navigation-linkbar-box-icon{
+          background-position: right top;
+        }
+      }
+
+      div:nth-child(2){
+        .Navigation-linkbar-box-icon{
+          background-position: right -30px;
+        }
+      }
+
+      div:nth-child(3){
+        .Navigation-linkbar-box-icon{
+          background-position: right -60px;
+        }
+      }
+
+      div:nth-child(4){
+        .Navigation-linkbar-box-icon{
+          background-position: right -90px;
+        }
+      }
+
+      div:last-of-type{
+        .Navigation-linkbar-box-icon{
+          background-position: right -120px;
+        }
+      }
+    }
+
+      .Navigation-linkbar-box {
+        width: 19.5%;
+        height: 100%;
+        position: relative;
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-bottom-right-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-bottomright: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        background-color: $orange;
+        @include vertical_gradient($orange);
+        padding: 10px 15px;
+        color: $white;
+        @include texthaze(darken($orange, 10%));
+
+        br{
+          display: none;
+        }
+
+        &:hover{
+          background-color: $lightblue;
+          @include vertical_gradient($lightblue);
+          @include texthaze(darken($lightblue, 10%));
+          @include fader;
+        }
+      }
+
+        .Navigation-linkbar-box-icon {
+          width: 50px;
+          height: 20px;
+          position: absolute;
+          right: 15px;
+          bottom: 10px;
+          background-image: url('../../images/Navigation-linkbar-box-icon.png');
+          background-repeat: no-repeat;
+        }
