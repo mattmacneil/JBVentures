@@ -25,7 +25,7 @@
 
 				<h1 class="headliner">We&#8217;ve<br /> taken off!</h1>
 
-				<p class="t-dinregular">GetTrue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
+				<p class="t-dinregular">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
 
 			</div><!-- hero left -->
 
@@ -45,7 +45,7 @@
 
 	<div class="Layout-right u-Section-Pad--side">
 
-		<p>GetTrue is a company known for award-winning customer service, delivered by helpful and friendly crewmembers. Future technologies to power seamless customer and crewmember interactions across the entire digital and physical travel experience include personalization, geolocation, customization, messaging, virtual reality, improved tools for our crewmembers to deliver magnificent service or enhanced ways to extend the GetTrue brand and culture.</p>
+		<p>JetBlue is a company known for award-winning customer service, delivered by helpful and friendly crewmembers. Future technologies to power seamless customer and crewmember interactions across the entire digital and physical travel experience include personalization, geolocation, customization, messaging, virtual reality, improved tools for our crewmembers to deliver magnificent service or enhanced ways to extend the JetBlue brand and culture.</p>
 
 		<p>Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
 
@@ -101,7 +101,7 @@
 
 		<div class="Landing-map-address">
 
-			<span class="t-dinregular">GetTrue Technology Ventures</span><br />
+			<span class="t-dinregular">JetBlue Technology Ventures</span><br />
 			<span>666 Skyway Rd, Suite 420</span><br />
 			<span>San Carlos, CA 94069</span>
 
