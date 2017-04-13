@@ -1,4 +1,4 @@
-<?php include("/home/kingsofc/public_html/jb_ventures/password_protect.php"); ?>
+<?php /* include("/home/kingsofc/public_html/jb_ventures/password_protect.php"); */ ?>
 
 <?php
     include "head.php";
