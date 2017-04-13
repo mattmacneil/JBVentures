@@ -1,4 +1,4 @@
-<?php /* include("/home/kingsofc/public_html/jb_ventures/password_protect.php"); */ ?>
+<?php include("/home/kingsofc/public_html/jb_ventures/password_protect.php"); ?>
 
 <?php
     include "head.php";
@@ -23,7 +23,7 @@
 
 			<div class="Hero-left u-Color-white greenhaze">
 
-				<h1 class="headliner">We&#8217;ve<br /> taken off?</h1>
+				<h1 class="headliner">We&#8217;ve<br /> taken off!</h1>
 
 				<p class="t-dinregular">GetTrue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
 
