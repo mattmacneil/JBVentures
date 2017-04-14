@@ -467,6 +467,33 @@ input, select {
   background-image: url("../../images/Navigation-linkbar-box-icon.png");
   background-repeat: no-repeat; }
 
+@media screen and (max-width: 1000px) {
+  .Navigation-logo-bg {
+    background-image: none; } }
+@media screen and (max-width: 850px) {
+  .Navigation-newsbar-align {
+    text-align: left; }
+
+  .Navigation-logo {
+    width: 100%; }
+
+  .Navigation-linkbar-linkwrap {
+    width: 100%; }
+
+  .Navigation-linkbar-box-connect {
+    display: none; }
+
+  .Navigation-linkbar-box {
+    width: 24.5%; } }
+@media screen and (max-width: 700px) {
+  .Navigation-newsbar {
+    display: none; }
+
+  .Navigation-linkbar-box {
+    padding: 10px 10px;
+    text-transform: capitalize; }
+    .Navigation-linkbar-box br {
+      display: inline; } }
 .u-Fill-lightgrey {
   background-color: #f1f5f8; }
 
@@ -785,25 +812,7 @@ footer {
 .Footer-grave {
   padding: 15px 5% 10px 5%; }
 
-@media screen and (max-width: 1000px) {
-  .Navigation-logo-bg {
-    background-image: none; } }
 @media screen and (max-width: 850px) {
-  .Navigation-newsbar-align {
-    text-align: left; }
-
-  .Navigation-logo {
-    width: 100%; }
-
-  .Navigation-linkbar-linkwrap {
-    width: 100%; }
-
-  .Navigation-linkbar-box-connect {
-    display: none; }
-
-  .Navigation-linkbar-box {
-    width: 24.5%; }
-
   .Hero {
     height: 400px;
     min-height: 300px; }
@@ -862,15 +871,6 @@ footer {
     .Footer-block-home:hover {
       padding-right: 10px; } }
 @media screen and (max-width: 700px) {
-  .Navigation-newsbar {
-    display: none; }
-
-  .Navigation-linkbar-box {
-    padding: 10px 10px;
-    text-transform: capitalize; }
-    .Navigation-linkbar-box br {
-      display: inline; }
-
   .Layout-left {
     width: 100%;
     margin-bottom: 50px; }

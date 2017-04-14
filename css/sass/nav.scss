@@ -148,3 +148,51 @@
           background-image: url('../../images/Navigation-linkbar-box-icon.png');
           background-repeat: no-repeat;
         }
+
+@media screen and (max-width: 1000px){
+
+  .Navigation-logo-bg {
+    background-image: none;
+  }
+
+} //1000
+
+@media screen and (max-width: 850px){
+
+  .Navigation-newsbar-align{
+    text-align: left;
+  }
+
+  .Navigation-logo {
+    width: 100%;
+  }
+
+  .Navigation-linkbar-linkwrap {
+    width: 100%;
+  }
+
+  .Navigation-linkbar-box-connect{
+    display: none;
+  }
+
+  .Navigation-linkbar-box {
+    width: 24.5%;
+  }
+
+} // 850
+
+@media screen and (max-width: 700px){
+
+  .Navigation-newsbar{
+    display: none;
+  }
+
+  .Navigation-linkbar-box {
+    padding: 10px 10px;
+    text-transform: capitalize;
+
+    br{
+      display: inline;
+    }
+  }
+}
