@@ -5,6 +5,10 @@
     include "nav.php";
 ?>
 
+<div class="u-Fill-green">
+
+<div class="u-Section-wrap">
+
 <section class="Hero Hero-landing">
 
 	<div class="Hero-video">
@@ -34,6 +38,12 @@
 	</div><!-- hero video -->
 
 </section><!-- landing hero -->
+
+</div><!-- section wrap (hero) -->
+
+</div><!-- Hero bg -->
+
+<div class="u-Section-wrap">
 
 <section class="UnderHero u-Section-Pad">
 
@@ -73,6 +83,9 @@
 
 </section><!-- underhero -->
 
+</div><!-- section wrap (landing portfolio) -->
+
+<div class="u-Section-wrap">
 
 <section class="Landing-culture">
 
@@ -89,7 +102,6 @@
 	</div><!-- landing culture overlay -->
 
 </section><!-- landing culture -->
-
 
 <section class="UnderHero u-Section-Pad Landing-map">
 
@@ -123,6 +135,8 @@
 	<div class="clearfix"></div>
 
 </section><!-- underhero -->
+
+</div><!-- section wrap (culture / map) -->
 
 <?php 
 

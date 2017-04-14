@@ -1,145 +1,161 @@
 
 <footer>
 
-	<div class="Footer-newsletter u-Section-Pad--side u-Color-white u-Fill-green greenhaze">
+	<div class="u-Fill-green">
 
-		<div class="Layout-left">
-		
-			<span class="headliner">Stay in the loop:</span>
+		<div class="u-Section-wrap">
 
-		</div><!-- layout left -->
+			<div class="Footer-newsletter u-Section-Pad--side u-Color-white u-Fill-green greenhaze">
 
-		<div class="Layout-right u-Section-Pad--side Footer-newsletter-CTA">
+				<div class="Layout-left">
+				
+					<span class="headliner">Stay in the loop:</span>
 
-			<div class="Footer-newsletter-button t-dinregular t-center greenhaze toggleNewsletter">
-				Sign up for our monthly newsletter
-			</div>
+				</div><!-- layout left -->
 
-		</div><!-- layout right -->
+				<div class="Layout-right u-Section-Pad--side Footer-newsletter-CTA">
 
-		<div class="clearfix"></div>
+					<div class="Footer-newsletter-button t-dinregular t-center greenhaze toggleNewsletter">
+						Sign up for our monthly newsletter
+					</div>
 
-	</div><!-- footer newsletter -->
-
-	<div class="NewsletterFields u-Section-Pad--side u-Fill-green u-Color-white">
-
-		<div class="Layout-right u-Float--right u-Section-Pad--side">
-
-			<div class="NewsletterFields-Wrapper">
-
-				<div class="NewsletterFields-left t-dinregular">
-
-					Name:
-
-				</div><!-- newsletter fields left -->
-
-				<div class="NewsletterFields-right">
-
-					<input type="text" name="name" placeholder="First and Last" />
-
-				</div><!-- newsletter fields right -->
+				</div><!-- layout right -->
 
 				<div class="clearfix"></div>
 
-			</div><!-- newsletter fields wrapper -->
+			</div><!-- footer newsletter -->
 
-			<div class="NewsletterFields-Wrapper">
+			<div class="NewsletterFields u-Section-Pad--side u-Fill-green u-Color-white">
 
-				<div class="NewsletterFields-left t-dinregular">
+				<div class="Layout-right u-Float--right u-Section-Pad--side">
 
-					Email:
+					<div class="NewsletterFields-Wrapper">
 
-				</div><!-- newsletter fields left -->
+						<div class="NewsletterFields-left t-dinregular">
 
-				<div class="NewsletterFields-right">
+							Name:
 
-					<input type="email" name="name" placeholder="you@youremail.com" />
+						</div><!-- newsletter fields left -->
 
-				</div><!-- newsletter fields right -->
+						<div class="NewsletterFields-right">
+
+							<input type="text" name="name" placeholder="First and Last" />
+
+						</div><!-- newsletter fields right -->
+
+						<div class="clearfix"></div>
+
+					</div><!-- newsletter fields wrapper -->
+
+					<div class="NewsletterFields-Wrapper">
+
+						<div class="NewsletterFields-left t-dinregular">
+
+							Email:
+
+						</div><!-- newsletter fields left -->
+
+						<div class="NewsletterFields-right">
+
+							<input type="email" name="name" placeholder="you@youremail.com" />
+
+						</div><!-- newsletter fields right -->
+
+						<div class="clearfix"></div>
+
+					</div><!-- newsletter fields wrapper -->
+
+					<div class="NewsletterFields-Wrapper">
+
+						<input type="submit" value="Sign up" />
+
+					</div><!-- newsletter fields wrapper -->
+
+				</div><!-- layout right -->
 
 				<div class="clearfix"></div>
 
-			</div><!-- newsletter fields wrapper -->
+			</div><!-- newsletter fields -->
 
-			<div class="NewsletterFields-Wrapper">
+		</div><!-- section wrap (footer newsletter) -->
 
-				<input type="submit" value="Sign up" />
+	</div><!-- footer newsletter bg -->
 
-			</div><!-- newsletter fields wrapper -->
+	<div class="u-Fill-lightblue">
 
-		</div><!-- layout right -->
+		<div class="u-Section-wrap">
 
-		<div class="clearfix"></div>
+			<div class="u-Section-Pad u-Color-darkblue Footer">
 
-	</div><!-- newsletter fields -->
-
-	<div class="u-Section-Pad u-Color-darkblue Footer">
-
-		<div class="Layout-left Footer-logo">
-		
-			<a href="index.php">
-			<img src="images/Footer-logo.png" alt="JetBlue Technology Ventures" />
-			</a>
-
-		</div><!-- layout left -->
-
-		<div class="Layout-right u-Section-Pad--side">
-
-			<div class="Footer-block-container">
-
-				<div class="footer-block">
-
-					<a href="XXX">Our mission</a><br />
-					<a href="XXX">The crew</a><br />
-					<a href="XXX">Our portfolio</a><br />
-					<a href="XXX">Latest news</a><br />
-					<a href="XXX">Connect</a>
-
-				</div><!-- footer block -->
-
-				<div class="footer-block">
-
-					<a href="XXX">Media inquiries</a><br />
-					<a href="XXX">Careers</a><br />
-					<a href="XXX">Location</a><br />
-					<a href="XXX">Advisory team</a><br />
-					<a href="XXX">Jetblue.com</a><br />
-
-				</div><!-- footer block -->
-
-				<div class="footer-block">
-
-					<a href="https://twitter.com/JetBlueVentures" target="_blank" style="margin-bottom: 5px;">
-					<div class="Footer-block-social u-Fill-darkblue u-Color-lightblue t-right Footer-block-social--twitter">
-
-						<span>@Twitter</span>
-
-					</div>
+				<div class="Layout-left Footer-logo">
+				
+					<a href="index.php">
+					<img src="images/Footer-logo.png" alt="JetBlue Technology Ventures" />
 					</a>
 
-					<a href="https://www.linkedin.com/company/jetblue-technology-ventures?trk=ppro_cprof" target="_blank">
-					<div class="Footer-block-social Footer-block-social--linkedin u-Fill-darkblue u-Color-lightblue t-right">
+				</div><!-- layout left -->
 
-						<span>LinkedIn</span>
+				<div class="Layout-right u-Section-Pad--side">
 
-					</div>
-					</a>
+					<div class="Footer-block-container">
 
-					<a href="#" class="noline">
-					<div class="Footer-block-home t-right">
-						<span>Go to Top</span>
-					</div><!-- footer block home -->
-					</a>
+						<div class="footer-block">
 
-				</div><!-- footer block -->
+							<a href="XXX">Our mission</a><br />
+							<a href="XXX">The crew</a><br />
+							<a href="XXX">Our portfolio</a><br />
+							<a href="XXX">Latest news</a><br />
+							<a href="XXX">Connect</a>
 
-			</div><!-- footer blocks container -->
+						</div><!-- footer block -->
 
-		</div>
+						<div class="footer-block">
 
-		<div class="clearfix"></div>
+							<a href="XXX">Media inquiries</a><br />
+							<a href="XXX">Careers</a><br />
+							<a href="XXX">Location</a><br />
+							<a href="XXX">Advisory team</a><br />
+							<a href="XXX">Jetblue.com</a><br />
 
-	</div>
+						</div><!-- footer block -->
+
+						<div class="footer-block">
+
+							<a href="https://twitter.com/JetBlueVentures" target="_blank" style="margin-bottom: 5px;">
+							<div class="Footer-block-social u-Fill-darkblue u-Color-lightblue t-right Footer-block-social--twitter">
+
+								<span>@Twitter</span>
+
+							</div>
+							</a>
+
+							<a href="https://www.linkedin.com/company/jetblue-technology-ventures?trk=ppro_cprof" target="_blank">
+							<div class="Footer-block-social Footer-block-social--linkedin u-Fill-darkblue u-Color-lightblue t-right">
+
+								<span>LinkedIn</span>
+
+							</div>
+							</a>
+
+							<a href="#" class="noline">
+							<div class="Footer-block-home t-right">
+								<span>Go to Top</span>
+							</div><!-- footer block home -->
+							</a>
+
+						</div><!-- footer block -->
+
+					</div><!-- footer blocks container -->
+
+				</div><!-- layout right -->
+
+				<div class="clearfix"></div>
+
+			</div><!-- .Footer -->
+
+		</div><!-- section wrap (footer) -->
+
+	</div><!-- footer bg -->
 
 	<div class="u-Fill-darkblue Footer-grave u-Color-grey t-center">
 
