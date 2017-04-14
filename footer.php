@@ -149,6 +149,20 @@
 
 </footer>
 
+<div class="Navigation-fixed-contact u-Section-Pad--side u-Color-darkblue">
+
+	<a href="connect.php" class="noline">
+	<div class="Navigation-fixed-contact-link t-center greenhaze">
+
+		<span>Interested<em> in learning more</em>?</span> <span>Connect With Us<em>!</em></span>
+
+		<div class="clearfix"></div>
+
+	</div><!-- navigation fixed contact link -->
+	</a>
+
+</div><!-- navigation fixed contact -->
+
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 
 <!-- 

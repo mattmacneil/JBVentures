@@ -149,6 +149,44 @@
           background-repeat: no-repeat;
         }
 
+.Navigation-fixed-contact {
+  display: none;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: $green;
+  z-index: 9999;
+  max-height: 20vh;
+  box-shadow: 0 -5px 5px -5px $black;
+}
+
+  .Navigation-fixed-contact-link{
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+    font-family: "dinbold";
+
+    span{
+      display: inline-block;
+      padding: 5px 10px 5px 10px;
+      border-radius: 10px;
+    }
+
+    span:first-of-type{
+      float: left;
+    }
+
+    span:last-of-type{
+      float: right;
+      background-color: $orange;
+      color: $white;
+      @include texthaze($darkblue);
+      @include divshadow($black);
+    }
+  }
+
 @media screen and (max-width: 1000px){
 
   .Navigation-logo-bg {
@@ -221,6 +259,10 @@
     border-bottom-left-radius: 0px;
   }
 
+.Navigation-fixed-contact {
+  display: inline;
+}
+
 } // 850
 
 @media screen and (max-width: 700px){
@@ -238,3 +280,13 @@
     }
   }
 }
+
+@media screen and (max-width: 500px){
+
+  .Navigation-fixed-contact-link{
+    em{
+      display: none;
+    }
+  }
+
+} // 500
