@@ -80,31 +80,31 @@
       display: flex;
       justify-content: space-between;
 
-      div:first-of-type{
+      div > div:nth-child(1){
         .Navigation-linkbar-box-icon{
           background-position: right top;
         }
       }
 
-      div:nth-child(2){
+      div + div:nth-child(2){
         .Navigation-linkbar-box-icon{
           background-position: right -30px;
         }
       }
 
-      div:nth-child(3){
+      div + div:nth-child(3){
         .Navigation-linkbar-box-icon{
           background-position: right -60px;
         }
       }
 
-      div:nth-child(4){
+      div + div:nth-child(4){
         .Navigation-linkbar-box-icon{
           background-position: right -90px;
         }
       }
 
-      div:last-of-type{
+      div + div:last-of-type{
         .Navigation-linkbar-box-icon{
           background-position: right -120px;
         }
@@ -123,9 +123,13 @@
         border-bottom-right-radius: 10px;
         background-color: $orange;
         @include vertical_gradient($orange);
-        padding: 10px 15px;
         color: $white;
         @include texthaze(darken($orange, 10%));
+
+        a{
+          text-decoration: none;
+          font-family: "din";
+        }
 
         br{
           display: none;
@@ -138,6 +142,12 @@
           @include fader;
         }
       }
+
+        .Navigation-linkbar-box-inner {
+          width: 100%;
+          height: 100%;
+          padding: 10px 15px;
+        }
 
         .Navigation-linkbar-box-icon {
           width: 50px;
@@ -271,7 +281,7 @@
     display: none;
   }
 
-  .Navigation-linkbar-box {
+  .Navigation-linkbar-box-inner {
     padding: 10px 10px;
     text-transform: capitalize;
 

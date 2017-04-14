@@ -25,6 +25,10 @@
     .u-Section-Pad {
       padding: 50px 5% 75px 5%; } }
 
+.u-Size-100 {
+  width: 100%;
+  height: 100%; }
+
 .u-Section-Pad--side {
   padding: 0 5%; }
 

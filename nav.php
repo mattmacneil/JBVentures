@@ -31,49 +31,69 @@
 		<div class="Navigation-linkbar-linkwrap">
 
 			<div class="Navigation-linkbar-box Navigation-linkbar-box-first t-dinregular">
+				<a href="our_mission.php">
+				<div class="Navigation-linkbar-box-inner t-dinregular">
 
-				Our <br />mission
+					Our <br />mission
 
-				<div class="Navigation-linkbar-box-icon">
-				</div><!-- navigation linkbar box icon -->
+					<div class="Navigation-linkbar-box-icon">
+					</div><!-- navigation linkbar box icon -->
 
+				</div>
+				</a>
 			</div><!-- navigation linkbar box -->
 
 
 			<div class="Navigation-linkbar-box t-dinregular">
+				<a href="the_crew.php">
+				<div class="Navigation-linkbar-box-inner t-dinregular">
 
-				The <br />crew
+					The <br />crew
 
-				<div class="Navigation-linkbar-box-icon">
-				</div><!-- navigation linkbar box icon -->
+					<div class="Navigation-linkbar-box-icon">
+					</div><!-- navigation linkbar box icon -->
 
+				</div>
+				</a>
 			</div><!-- navigation linkbar box -->
 
 			<div class="Navigation-linkbar-box t-dinregular">
+				<a href="our_portfolio.php">
+				<div class="Navigation-linkbar-box-inner t-dinregular">
 
-				Our <br />portfolio
+					Our <br />portfolio
 
-				<div class="Navigation-linkbar-box-icon">
-				</div><!-- navigation linkbar box icon -->
+					<div class="Navigation-linkbar-box-icon">
+					</div><!-- navigation linkbar box icon -->
 
+				</div>
+				</a>
 			</div><!-- navigation linkbar box -->
 
 			<div class="Navigation-linkbar-box Navigation-linkbar-box-last t-dinregular">
+				<a href="news.php">
+				<div class="Navigation-linkbar-box-inner t-dinregular">
 
-				Latest <br />news
+					Latest <br />news
 
-				<div class="Navigation-linkbar-box-icon">
-				</div><!-- navigation linkbar box icon -->
+					<div class="Navigation-linkbar-box-icon">
+					</div><!-- navigation linkbar box icon -->
 
+				</div>
+				</a>
 			</div><!-- navigation linkbar box -->
 
 			<div class="Navigation-linkbar-box Navigation-linkbar-box-connect t-dinregular">
+				<a href="connect.php">
+				<div class="Navigation-linkbar-box-inner t-dinregular">
 
-				Connect
+					Connect
 
-				<div class="Navigation-linkbar-box-icon">
-				</div><!-- navigation linkbar box icon -->
+					<div class="Navigation-linkbar-box-icon">
+					</div><!-- navigation linkbar box icon -->
 
+				</div>
+				</a>
 			</div><!-- navigation linkbar box -->
 
 		</div><!-- navigation linkbar link wrap -->

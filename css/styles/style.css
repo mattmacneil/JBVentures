@@ -407,15 +407,15 @@ input, select {
   padding: 5px 0;
   display: flex;
   justify-content: space-between; }
-  .Navigation-linkbar-linkwrap div:first-of-type .Navigation-linkbar-box-icon {
+  .Navigation-linkbar-linkwrap div > div:nth-child(1) .Navigation-linkbar-box-icon {
     background-position: right top; }
-  .Navigation-linkbar-linkwrap div:nth-child(2) .Navigation-linkbar-box-icon {
+  .Navigation-linkbar-linkwrap div + div:nth-child(2) .Navigation-linkbar-box-icon {
     background-position: right -30px; }
-  .Navigation-linkbar-linkwrap div:nth-child(3) .Navigation-linkbar-box-icon {
+  .Navigation-linkbar-linkwrap div + div:nth-child(3) .Navigation-linkbar-box-icon {
     background-position: right -60px; }
-  .Navigation-linkbar-linkwrap div:nth-child(4) .Navigation-linkbar-box-icon {
+  .Navigation-linkbar-linkwrap div + div:nth-child(4) .Navigation-linkbar-box-icon {
     background-position: right -90px; }
-  .Navigation-linkbar-linkwrap div:last-of-type .Navigation-linkbar-box-icon {
+  .Navigation-linkbar-linkwrap div + div:last-of-type .Navigation-linkbar-box-icon {
     background-position: right -120px; }
 
 .Navigation-linkbar-box {
@@ -436,9 +436,11 @@ input, select {
   background-image: -ms-linear-gradient(top, #ffad33, #f90);
   background-image: -o-linear-gradient(top, #ffad33, #f90);
   background-image: linear-gradient(to bottom, #ffad33, #f90);
-  padding: 10px 15px;
   color: #fff;
   text-shadow: #cc7a00 1px 0 15px; }
+  .Navigation-linkbar-box a {
+    text-decoration: none;
+    font-family: "din"; }
   .Navigation-linkbar-box br {
     display: none; }
   .Navigation-linkbar-box:hover {
@@ -457,6 +459,11 @@ input, select {
     -o-transition: all 0.3s;
     -ms-transition: all 0.3s;
     transition: all 0.3s; }
+
+.Navigation-linkbar-box-inner {
+  width: 100%;
+  height: 100%;
+  padding: 10px 15px; }
 
 .Navigation-linkbar-box-icon {
   width: 50px;
@@ -564,10 +571,10 @@ input, select {
   .Navigation-newsbar {
     display: none; }
 
-  .Navigation-linkbar-box {
+  .Navigation-linkbar-box-inner {
     padding: 10px 10px;
     text-transform: capitalize; }
-    .Navigation-linkbar-box br {
+    .Navigation-linkbar-box-inner br {
       display: inline; } }
 @media screen and (max-width: 500px) {
   .Navigation-fixed-contact-link em {
@@ -598,6 +605,10 @@ input, select {
   @media screen and (max-width: 700px) {
     .u-Section-Pad {
       padding: 50px 5% 75px 5%; } }
+
+.u-Size-100 {
+  width: 100%;
+  height: 100%; }
 
 .u-Section-Pad--side {
   padding: 0 5%; }
