@@ -30,7 +30,7 @@
 
 		<div class="Navigation-linkbar-linkwrap">
 
-			<div class="Navigation-linkbar-box t-dinregular">
+			<div class="Navigation-linkbar-box Navigation-linkbar-box-first t-dinregular">
 
 				Our <br />mission
 
@@ -58,7 +58,7 @@
 
 			</div><!-- navigation linkbar box -->
 
-			<div class="Navigation-linkbar-box t-dinregular">
+			<div class="Navigation-linkbar-box Navigation-linkbar-box-last t-dinregular">
 
 				Latest <br />news
 
