@@ -214,10 +214,11 @@ footer{
           padding: 10px;
           margin-bottom: 40px;
           border-radius: 10px;
-          background-color: $orange;
           @include divshadow(darken($green, 10%));
-          font-family: "din";
-          color: $black;
+          font-family: "dinbold";
+          background-color: $orange;
+          color: $white;
+          @include texthaze($grey);
         }
       }
 

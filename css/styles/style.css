@@ -797,12 +797,13 @@ footer {
     padding: 10px;
     margin-bottom: 40px;
     border-radius: 10px;
-    background-color: #f90;
     transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
     box-shadow: 0 2px 5px 0 #549a33;
-    font-family: "din";
-    color: #454545; }
+    font-family: "dinbold";
+    background-color: #f90;
+    color: #fff;
+    text-shadow: #666666 1px 0 15px; }
 
 .NewsletterFields-left {
   width: 18%;
