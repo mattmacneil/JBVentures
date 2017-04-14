@@ -1,4 +1,7 @@
-<nav class="Navigation">
+
+<div class="u-Fill-lightgrey">
+
+<div class="u-Section-wrap">
 
 	<div class="Navigation-newsbar">
 
@@ -10,6 +13,13 @@
 
 	</div><!-- navigation newsbar -->
 
+</div><!-- section wrap (newsbar) -->
+
+</div><!-- newsbar wrap -->
+
+<div class="u-Section-wrap">
+
+<nav class="Navigation">
 
 	<div class="Navigation-linkbar u-Section-Pad--side">
 
@@ -101,3 +111,5 @@
 	</div><!-- navigation linkbar -->
 
 </nav><!-- navigation -->
+
+</div><!-- section wrap (nav) -->

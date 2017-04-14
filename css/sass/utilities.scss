@@ -1,11 +1,20 @@
 @import "vars";
 
+.u-Section-wrap {
+	margin: 0 auto;
+	max-width: 2000px;
+}
+
 .u-Fill-lightgrey {
 	background-color: $lightgrey;
 }
 
 .u-Fill-green {
 	background-color: $green;
+}
+
+.u-Fill-lightblue{
+	background-color: $lightblue;
 }
 
 .u-Fill-darkblue {

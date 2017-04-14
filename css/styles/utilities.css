@@ -1,8 +1,15 @@
+.u-Section-wrap {
+  margin: 0 auto;
+  max-width: 2000px; }
+
 .u-Fill-lightgrey {
   background-color: #f1f5f8; }
 
 .u-Fill-green {
   background-color: #69c040; }
+
+.u-Fill-lightblue {
+  background-color: #306faa; }
 
 .u-Fill-darkblue {
   background-color: #132a4f; }
