@@ -698,6 +698,9 @@ input, select {
   .Landing-map-address span:last-of-type {
     margin-bottom: 0; }
 
+.Landing-map-left {
+  margin-bottom: 0 !important; }
+
 .Landing-map-wrapper {
   height: 100%;
   border-radius: 10px;
