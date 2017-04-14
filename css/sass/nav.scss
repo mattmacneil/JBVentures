@@ -159,7 +159,7 @@
   background-color: $green;
   z-index: 9999;
   max-height: 20vh;
-  box-shadow: 0 -5px 5px -5px $black;
+  box-shadow: 0 -5px 5px -5px $grey;
 }
 
   .Navigation-fixed-contact-link{
@@ -182,7 +182,7 @@
       float: right;
       background-color: $orange;
       color: $white;
-      @include texthaze($darkblue);
+      @include texthaze($grey);
       @include divshadow($black);
     }
   }
