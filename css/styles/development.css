@@ -51,9 +51,16 @@
   height: 100%;
   background-color: #69c040;
   background-color: rgba(105, 192, 64, 0.75);
-  padding: 100px 5% 0 5%; }
+  padding: 100px 5% 0 5%;
+  float: left; }
   .Hero-left h1 {
     margin-bottom: 50px; }
+
+.Hero-right {
+  width: 63.5%;
+  height: 100%;
+  float: left;
+  padding: 100px 5% 0 5%; }
 
 .greenhaze {
   text-shadow: #549a33 1px 0 15px; }

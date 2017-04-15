@@ -27,11 +27,19 @@
 
 			<div class="Hero-left u-Color-white greenhaze">
 
-				<h1 class="headliner">We&#8217;ve<br /> taken off!</h1>
+				<h1 class="headliner">We&#8217;ve<br /> taken off?</h1>
 
 				<p class="t-dinregular">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
 
 			</div><!-- hero left -->
+
+			<div class="Hero-right">
+
+				<p style="width: 100%; background-color: yellow;">j</p>
+
+			</div><!-- hero right -->
+
+			<div class="clearfix"></div>
 
 		</div><!-- landing hero overlay -->
 
