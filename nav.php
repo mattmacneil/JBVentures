@@ -110,6 +110,8 @@
 
 	</div><!-- navigation linkbar -->
 
+	<div class="clearfix"></div>
+
 </nav><!-- navigation -->
 
 </div><!-- section wrap (nav) -->

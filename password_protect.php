@@ -50,14 +50,22 @@ $LOGIN_INFORMATION = array(
 // NOTE: all rows except last must have comma "," at the end of line
 $LOGIN_INFORMATION = array(
   'b6',
-  'matt'
+  'B6',
+  'Be6',
+  'be6',
+  'bsix',
+  'Bsix',
+  'Bee6',
+  'bee6',
+  'BeeSix',
+  'Beesix'
 );
 
 // request login? true - show login and password boxes, false - password box only
 define('USE_USERNAME', false);
 
 // User will be redirected to this page after logout
-define('LOGOUT_URL', 'http://www.example.com/');
+define('LOGOUT_URL', 'http://www.kingsofcalabria.com/jb_ventures/');
 
 // time out after NN minutes of inactivity. Set to 0 to not timeout
 define('TIMEOUT_MINUTES', 0);

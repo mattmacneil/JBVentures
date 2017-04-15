@@ -61,10 +61,18 @@
       background-color: $green;
       background-color: rgba($green, .75);
       padding: 100px 5% 0 5%;
+      float: left;
 
       h1{
         margin-bottom: 50px;
       }
+    }
+
+    .Hero-right {
+      width: 63.5%;
+      height: 100%;
+      float: left;
+      padding: 100px 5% 0 5%;
     }
 
       .greenhaze{
