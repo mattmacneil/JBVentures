@@ -944,11 +944,14 @@ footer {
     width: 100%;
     display: table-cell;
     vertical-align: middle;
-    padding: 0 5%;
+    padding: 100px 5%;
     background-color: rgba(19, 42, 79, 0.25);
     text-shadow: #132a4f 1px 0 15px; }
     .Hero-left h1 {
       margin-bottom: 25px; }
+
+  .Hero-right {
+    display: none; }
 
   .Landing-portfolio-container img {
     height: 15px; }
