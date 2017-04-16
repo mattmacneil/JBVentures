@@ -72,8 +72,18 @@
       width: 63.5%;
       height: 100%;
       float: left;
-      padding: 100px 5% 0 5%;
+      padding: 50px 5% 50px 5%;
     }
+
+      .Hero-right-inner {
+        margin: 0 auto;
+        height: 100%;
+
+        img{
+          margin: 0 auto;
+          height: 100%;
+        }
+      }
 
       .greenhaze{
         @include texthaze(darken($green, 10%));
