@@ -35,7 +35,11 @@
 
 			<div class="Hero-right">
 
-				<p style="width: 100%; background-color: yellow;">j</p>
+				<div class="Hero-right-inner t-center">
+
+					<img src="images/Hero-landing.png" />
+
+				</div><!-- hero right inner -->
 
 			</div><!-- hero right -->
 

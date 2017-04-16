@@ -703,7 +703,14 @@ input, select {
   width: 63.5%;
   height: 100%;
   float: left;
-  padding: 100px 5% 0 5%; }
+  padding: 50px 5% 50px 5%; }
+
+.Hero-right-inner {
+  margin: 0 auto;
+  height: 100%; }
+  .Hero-right-inner img {
+    margin: 0 auto;
+    height: 100%; }
 
 .greenhaze {
   text-shadow: #549a33 1px 0 15px; }
