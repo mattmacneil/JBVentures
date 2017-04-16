@@ -154,10 +154,7 @@ footer {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 31.25px;
-  display: flex;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 #255582; }
+  display: flex; }
 
 .Footer-newsletter-CTA {
   display: flex;

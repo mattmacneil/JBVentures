@@ -201,7 +201,6 @@ footer{
   padding-top: 25px;
   padding-bottom: 31.25px;
   display: flex;
-  @include divshadow(darken($lightblue, 10%));
 }
 
   .Footer-newsletter-CTA{
