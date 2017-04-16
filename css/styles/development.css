@@ -88,7 +88,11 @@
 .Landing-portfolio-container {
   width: 100%;
   margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
   .Landing-portfolio-container img {
     height: 25px; }
@@ -113,6 +117,8 @@
 
 .Landing-map {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .Landing-map-address {
@@ -154,10 +160,16 @@ footer {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 31.25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex; }
 
 .Footer-newsletter-CTA {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .Footer-newsletter-button {
@@ -176,6 +188,8 @@ footer {
 
 .NewsletterFields-Wrapper {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 10px; }
   .NewsletterFields-Wrapper input[type="submit"] {
@@ -197,7 +211,11 @@ footer {
 .NewsletterFields-left {
   width: 18%;
   float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
 
 .NewsletterFields-right {
@@ -216,7 +234,11 @@ footer {
   height: 80px; }
 
 .Footer-block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between; }
 
 .footer-block {

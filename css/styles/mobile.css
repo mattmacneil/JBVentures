@@ -81,6 +81,9 @@
       padding-bottom: 0; } }
 @media screen and (max-width: 500px) {
   .Footer-block-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column; }
 
   .footer-block {
