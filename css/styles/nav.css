@@ -230,6 +230,12 @@
       display: inline; } }
 @media screen and (max-width: 500px) {
   .Navigation-fixed-contact-link em {
-    display: none; } }
+    display: none; }
+
+  .Navigation-logo-align {
+    padding-left: 5%; }
+
+  .Nav-Section-wrap {
+    padding: 0 1% !important; } }
 
 /*# sourceMappingURL=nav.css.map */

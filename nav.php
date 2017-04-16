@@ -21,7 +21,7 @@
 
 <nav class="Navigation">
 
-	<div class="Navigation-linkbar u-Section-Pad--side">
+	<div class="Navigation-linkbar u-Section-Pad--side Nav-Section-wrap">
 
 		<div class="Navigation-logo">
 
