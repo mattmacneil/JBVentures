@@ -228,11 +228,14 @@ table {
 *, *:before, *:after {
   box-sizing: border-box; }
 
+html, body {
+  -webkit-overflow-scrolling: touch !important;
+  overflow: auto !important;
+  height: 100% !important; }
+
 html {
   width: 100%;
-  height: 100%;
-  overflow-x: hidden !important;
-  overflow-y: scroll; }
+  height: 100%; }
 
 body {
   width: 100%;
@@ -246,8 +249,7 @@ body {
   font-size: 1.1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: none;
-  overflow-x: hidden !important; }
+  background-image: none; }
   @media (min-width: 1000px) {
     body {
       font-size: 1.25em; } }
