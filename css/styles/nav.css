@@ -218,9 +218,6 @@
     border-bottom-left-radius: 0px; }
 
   .Navigation-fixed-contact {
-    display: inline; }
-
-  .Navigation-fixed-contact-gutter {
     display: inline; } }
 @media screen and (max-width: 700px) {
   .Navigation-newsbar {
