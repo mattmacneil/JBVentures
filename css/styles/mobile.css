@@ -1,27 +1,62 @@
 @media screen and (max-width: 850px) {
   .Hero {
-    height: 400px;
-    min-height: 300px; }
+    height: auto;
+    min-height: 1px; }
 
-  .Hero-video video {
-    display: none; }
+  .Hero-video {
+    width: auto;
+    height: auto;
+    position: relative; }
+    .Hero-video video {
+      display: none; }
 
   .Hero-overlay {
-    display: table; }
+    position: relative; }
 
   .Hero-left {
     width: 100%;
-    display: table-cell;
-    vertical-align: middle;
-    padding: 100px 5%;
-    background-color: rgba(19, 42, 79, 0.25);
-    text-shadow: #132a4f 1px 0 15px; }
-    .Hero-left h1 {
-      margin-bottom: 25px; }
+    padding: 75px 5%;
+    background-color: rgba(19, 42, 79, 0.5);
+    text-shadow: #091426 1px 0 15px; }
 
   .Hero-right {
     display: none; }
 
+  	/*
+  
+  	.Hero{
+  		height: 400px;
+  		min-height: 300px;
+  	}
+  
+  	.Hero-video{
+  		video{
+  			display: none;
+  		}
+  	}
+  
+  	.Hero-overlay{
+  		display: table;
+  	}
+  
+  	.Hero-left{
+  		width: 100%;
+  		display: table-cell;
+  		vertical-align: middle;
+  		padding: 100px 5%;
+  		background-color: rgba($darkblue, .25);
+  		@include texthaze($darkblue);
+  
+  		h1{
+  			margin-bottom: 25px;
+  		}
+  	}
+  
+  	.Hero-right{
+  		display: none;
+  	}
+  
+  	*/
   .Landing-portfolio-container img {
     height: 15px; }
 

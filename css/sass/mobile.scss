@@ -8,6 +8,38 @@
 
 @media screen and (max-width: 850px){
 
+	.Hero {
+		height: auto;
+		min-height: 1px;
+	}
+
+	.Hero-video {
+		width: auto;
+		height: auto;
+		position: relative;
+
+		video{
+			display: none;
+		}
+	}
+
+	.Hero-overlay{
+		position: relative;
+	}
+
+	.Hero-left {
+		width: 100%;
+		padding: 75px 5%;
+		background-color: rgba($darkblue, .5);
+		@include texthaze(darken($darkblue, 10%));
+	}
+
+	.Hero-right {
+		display: none;
+	}
+
+	/*
+
 	.Hero{
 		height: 400px;
 		min-height: 300px;
@@ -39,6 +71,8 @@
 	.Hero-right{
 		display: none;
 	}
+
+	*/
 
 	.Landing-portfolio-container{
 		img{
