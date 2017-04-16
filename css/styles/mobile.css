@@ -22,41 +22,6 @@
   .Hero-right {
     display: none; }
 
-  	/*
-  
-  	.Hero{
-  		height: 400px;
-  		min-height: 300px;
-  	}
-  
-  	.Hero-video{
-  		video{
-  			display: none;
-  		}
-  	}
-  
-  	.Hero-overlay{
-  		display: table;
-  	}
-  
-  	.Hero-left{
-  		width: 100%;
-  		display: table-cell;
-  		vertical-align: middle;
-  		padding: 100px 5%;
-  		background-color: rgba($darkblue, .25);
-  		@include texthaze($darkblue);
-  
-  		h1{
-  			margin-bottom: 25px;
-  		}
-  	}
-  
-  	.Hero-right{
-  		display: none;
-  	}
-  
-  	*/
   .Landing-portfolio-container img {
     height: 15px; }
 
