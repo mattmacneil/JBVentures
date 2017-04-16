@@ -29,6 +29,7 @@ body{
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: $body_background_image;
+  overflow-x: hidden !important;
 
   @media (min-width: 1000px) {
     font-size: 1.25em;

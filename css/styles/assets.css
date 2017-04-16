@@ -23,7 +23,8 @@ body {
   font-size: 1.1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: none; }
+  background-image: none;
+  overflow-x: hidden !important; }
   @media (min-width: 1000px) {
     body {
       font-size: 1.25em; } }
