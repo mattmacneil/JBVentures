@@ -692,6 +692,9 @@ input, select {
     height: auto;
     opacity: 0.8; }
 
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .Hero-video video {
+    display: none; } }
 .Hero-overlay {
   width: 100%;
   height: 100%;

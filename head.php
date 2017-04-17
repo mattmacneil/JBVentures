@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<title>
 		JBVentures
@@ -16,6 +17,14 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/styles/style.css" rel="stylesheet">
+
+  <!--[if lte IE8]>
+  <style type="text/css">
+    .Hero-video video {
+      display: none;
+    }
+  </style>
+  <![endif]-->
 
 </head>
 <body>
