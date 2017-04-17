@@ -17,6 +17,9 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="css/styles/style.css" rel="stylesheet">
+  <noscript>
+      <link rel="stylesheet" href="css/styles/noscript.css" />
+  </noscript>
 
   <!--[if lte IE8]>
   <style type="text/css">
