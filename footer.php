@@ -159,7 +159,7 @@
 
 	<div class="u-Fill-darkblue Footer-grave u-Color-grey t-center">
 
-		&copy;2017 JetBlue Technology Ventures - NASDAQ : JBLU
+		&copy;2017 JetBlue Technology Ventures - NASDAQ : <a href="https://www.google.com/finance?cid=670841" target="_blank">JBLU</a>
 
 	</div>
 

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<title>
-		JBVentures
+		JetBlue Technology Ventures &#124; Technology, Travel and Hospitality
 	</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon32.png">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">

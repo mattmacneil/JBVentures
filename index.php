@@ -37,7 +37,15 @@
 
 				<div class="Hero-right-inner t-center">
 
-					<img src="images/Hero-landing.png" />
+					<div class="Hero-landing-image-wrap">
+
+						<div class="Hero-hex-1"></div><!-- hero hex 1 -->
+						<div class="Hero-hex-2"></div><!-- hero hex 2 -->
+						<div class="Hero-hex-3"></div><!-- hero hex 3 -->
+
+						<div class="Hero-hex-logo"></div><!-- hero hex logo -->
+
+					</div><!-- hero landing image wrap -->
 
 				</div><!-- hero right inner -->
 

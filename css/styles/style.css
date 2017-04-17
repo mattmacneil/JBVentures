@@ -736,7 +736,7 @@ input, select {
   width: 63.5%;
   height: 100%;
   float: left;
-  padding: 50px 5% 50px 5%; }
+  padding: 100px 0 0 0; }
 
 .Hero-right-inner {
   margin: 0 auto;
@@ -744,6 +744,47 @@ input, select {
   .Hero-right-inner img {
     margin: 0 auto;
     height: 100%; }
+
+.Hero-landing-image-wrap {
+  width: 50%;
+  height: 50%;
+  position: relative; }
+
+.Hero-hex-1,
+.Hero-hex-2,
+.Hero-hex-3 {
+  width: 70%;
+  height: 135%;
+  position: absolute;
+  background-image: url("../../images/Hero-hex.png");
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.Hero-hex-1 {
+  right: -20%;
+  top: 0; }
+
+.Hero-hex-2 {
+  right: -50%;
+  top: 0; }
+
+.Hero-hex-3 {
+  top: 35%;
+  left: 65%; }
+
+.Hero-hex-logo {
+  width: 200%;
+  height: 85%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+  opacity: 0.5;
+  background-image: url(../../images/Hero-hex-logo.png);
+  background-size: auto 50%;
+  background-position: center center;
+  background-repeat: no-repeat; }
 
 .greenhaze {
   text-shadow: #549a33 1px 0 15px; }
@@ -980,6 +1021,9 @@ footer {
 
 .Footer-grave {
   padding: 15px 5% 10px 5%; }
+  .Footer-grave a {
+    color: orange;
+    text-decoration: none; }
 
 @media screen and (max-width: 850px) {
   .Hero {
