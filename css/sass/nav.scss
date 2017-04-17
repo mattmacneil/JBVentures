@@ -77,7 +77,11 @@
       height: 100%;
       float: right;
       padding: 5px 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
 
       div > div:nth-child(1){
@@ -180,7 +184,7 @@
 
     span{
       display: inline-block;
-      padding: 5px 10px 5px 10px;
+      padding: 5px 10px;
       border-radius: 10px;
     }
 
@@ -194,6 +198,21 @@
       color: $white;
       @include texthaze($grey);
       @include divshadow($black);
+    }
+  }
+
+  .Navigation-fix-gutter{
+    padding: 15px 0;
+    display: none;
+
+    span{
+      padding: 5px 10px;
+      display: inline-block;
+      font-family: "dinbold";
+    }
+
+    a{
+      color: $orange;
     }
   }
 
@@ -269,6 +288,10 @@
     border-bottom-left-radius: 0px;
   }
 
+.Navigation-fix-gutter{
+  display: block;
+}
+
 .Navigation-fixed-contact {
   display: inline;
 }
@@ -293,6 +316,7 @@
 
 @media screen and (max-width: 500px){
 
+  .Navigation-fix-gutter,
   .Navigation-fixed-contact-link{
     em{
       display: none;

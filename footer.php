@@ -177,6 +177,10 @@
 
 </div><!-- navigation fixed contact -->
 
+<div class="Navigation-fix-gutter u-Fill-darkblue u-Color-white t-center">
+	<span>Interested<em> in learning more</em>?</span> <span><a href="connect.php" class="noline">Connect With Us<em>!</em></a></span>
+</div><!-- navigation fix gutter -->
+
 <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 
 <!-- 
