@@ -32,7 +32,16 @@
 
   .Hero-hex-icon-3 {
     width: 50%;
-    right: -25%; } }
+    right: -25%; }
+
+  .Hero-hex-arrow-1 {
+    top: 47.25%; }
+
+  .Hero-hex-arrow-2 {
+    top: 47.25%; }
+
+  .Hero-hex-arrow-3 {
+    top: 121.9%; } }
 @media screen and (max-width: 850px) {
   .Hero {
     height: auto;
