@@ -141,6 +141,36 @@
             background-repeat: no-repeat;
           }
 
+          .Hero-hex-icon-1,
+          .Hero-hex-icon-2,
+          .Hero-hex-icon-3{
+            width: 30%;
+            height: 20%;
+            position: absolute;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: auto 90%;
+            opacity: 0.5;
+          }
+
+            .Hero-hex-icon-1{
+              top: 34%;
+              right: 20%;
+              background-image: url('../../images/Hero-hex-icon-1.png');
+            }
+
+            .Hero-hex-icon-2{
+              top: 34%;
+              right: -50%;
+              background-image: url('../../images/Hero-hex-icon-2.png');
+            }
+
+            .Hero-hex-icon-3{
+              top: 134%;
+              right: -15%;
+              background-image: url('../../images/Hero-hex-icon-3.png');
+            }
+
       .greenhaze{
         @include texthaze(darken($green, 10%));
       }

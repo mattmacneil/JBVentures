@@ -43,6 +43,10 @@
 						<div class="Hero-hex-2"></div><!-- hero hex 2 -->
 						<div class="Hero-hex-3"></div><!-- hero hex 3 -->
 
+						<div class="Hero-hex-icon-1"></div><!-- hero hex icon 1 -->
+						<div class="Hero-hex-icon-2"></div><!-- hero hex icon 2 -->
+						<div class="Hero-hex-icon-3"></div><!-- hero hex icon 3 -->
+
 						<div class="Hero-hex-logo"></div><!-- hero hex logo -->
 
 					</div><!-- hero landing image wrap -->
