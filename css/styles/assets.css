@@ -103,13 +103,10 @@ input, select {
   vertical-align: middle; }
 
 ::-moz-selection {
-  background: blue; }
+  background: #f90; }
 
 ::selection {
-  background: blue; }
-
-::-moz-selection {
-  background: blue; }
+  background: #f90; }
 
 .clearfix {
   clear: both; }

@@ -325,13 +325,10 @@ input, select {
   vertical-align: middle; }
 
 ::-moz-selection {
-  background: blue; }
+  background: #f90; }
 
 ::selection {
-  background: blue; }
-
-::-moz-selection {
-  background: blue; }
+  background: #f90; }
 
 .clearfix {
   clear: both; }
@@ -434,6 +431,10 @@ input, select {
     background-position: right -90px; }
   .Navigation-linkbar-linkwrap div + div:last-of-type .Navigation-linkbar-box-icon {
     background-position: right -120px; }
+  .Navigation-linkbar-linkwrap ::-moz-selection {
+    background: #306faa; }
+  .Navigation-linkbar-linkwrap ::selection {
+    background: #306faa; }
 
 .Navigation-linkbar-box {
   width: 19.5%;

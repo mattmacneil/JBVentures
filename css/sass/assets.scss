@@ -129,15 +129,11 @@ input, select{
 }
 
 ::-moz-selection {
-  background: $blue;
+  background: $orange;
 }
 
 ::selection {
-  background: $blue;
-}
-
-::-moz-selection {
-  background: $blue;
+  background: $orange;
 }
 
 .clearfix{

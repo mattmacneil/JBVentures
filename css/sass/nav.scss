@@ -117,6 +117,15 @@
           background-position: right -120px;
         }
       }
+
+      ::-moz-selection {
+        background: $lightblue;
+      }
+
+      ::selection {
+        background: $lightblue;
+      }
+
     }
 
       .Navigation-linkbar-box {
