@@ -685,10 +685,7 @@ input, select {
   min-height: 400px;
   max-height: 800px;
   background-color: lightgrey;
-  clear: both;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 #666666; }
+  clear: both; }
   @media screen and (min-width: 2500px) {
     .Hero {
       min-height: 600px; } }
@@ -736,14 +733,12 @@ input, select {
   width: 63.5%;
   height: 100%;
   float: left;
-  padding: 100px 0 0 0; }
+  padding: 75px 0 0 0;
+  position: relative; }
 
 .Hero-right-inner {
   margin: 0 auto;
   height: 100%; }
-  .Hero-right-inner img {
-    margin: 0 auto;
-    height: 100%; }
 
 .Hero-landing-image-wrap {
   width: 50%;
@@ -754,7 +749,7 @@ input, select {
 .Hero-hex-2,
 .Hero-hex-3 {
   width: 70%;
-  height: 135%;
+  height: 145%;
   position: absolute;
   background-image: url("../../images/Hero-hex.png");
   background-size: 100% 100%;
@@ -775,7 +770,7 @@ input, select {
 
 .Hero-hex-logo {
   width: 200%;
-  height: 85%;
+  height: 95%;
   position: absolute;
   left: 0;
   right: 0;
@@ -808,9 +803,18 @@ input, select {
   background-image: url("../../images/Hero-hex-icon-2.png"); }
 
 .Hero-hex-icon-3 {
-  top: 134%;
+  top: 145%;
   right: -15%;
   background-image: url("../../images/Hero-hex-icon-3.png"); }
+
+.Hero-right-widescreen-gutter {
+  width: 7.75%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #69c040;
+  display: none; }
 
 .greenhaze {
   text-shadow: #549a33 1px 0 15px; }
@@ -1051,6 +1055,41 @@ footer {
     color: orange;
     text-decoration: none; }
 
+@media screen and (min-width: 2000px) {
+  .Hero-right-widescreen-gutter {
+    display: inline-block; }
+
+  .Hero-left {
+    background-color: #69c040; }
+
+  .Hero-right {
+    padding-right: 5%; } }
+@media screen and (max-width: 1150px) {
+  .Hero-hex-1,
+  .Hero-hex-2,
+  .Hero-hex-3 {
+    width: 90%; }
+
+  .Hero-hex-1 {
+    right: -20%; }
+
+  .Hero-hex-2 {
+    right: -70%; }
+
+  .Hero-hex-3 {
+    left: 55%; }
+
+  .Hero-hex-icon-1 {
+    width: 50%;
+    right: 20%; }
+
+  .Hero-hex-icon-2 {
+    width: 50%;
+    right: -70%; }
+
+  .Hero-hex-icon-3 {
+    width: 50%;
+    right: -25%; } }
 @media screen and (max-width: 850px) {
   .Hero {
     height: auto;

@@ -1,3 +1,38 @@
+@media screen and (min-width: 2000px) {
+  .Hero-right-widescreen-gutter {
+    display: inline-block; }
+
+  .Hero-left {
+    background-color: #69c040; }
+
+  .Hero-right {
+    padding-right: 5%; } }
+@media screen and (max-width: 1150px) {
+  .Hero-hex-1,
+  .Hero-hex-2,
+  .Hero-hex-3 {
+    width: 90%; }
+
+  .Hero-hex-1 {
+    right: -20%; }
+
+  .Hero-hex-2 {
+    right: -70%; }
+
+  .Hero-hex-3 {
+    left: 55%; }
+
+  .Hero-hex-icon-1 {
+    width: 50%;
+    right: 20%; }
+
+  .Hero-hex-icon-2 {
+    width: 50%;
+    right: -70%; }
+
+  .Hero-hex-icon-3 {
+    width: 50%;
+    right: -25%; } }
 @media screen and (max-width: 850px) {
   .Hero {
     height: auto;

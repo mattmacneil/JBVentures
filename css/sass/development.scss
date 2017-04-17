@@ -17,7 +17,6 @@
   max-height: 800px;
   background-color: lightgrey;
   clear: both;
-  @include divshadow($grey);
 
   @media screen and (min-width: 2500px){
     min-height: 600px;
@@ -80,17 +79,13 @@
       width: 63.5%;
       height: 100%;
       float: left;
-      padding: 100px 0 0 0;
+      padding: 75px 0 0 0;
+      position: relative;
     }
 
       .Hero-right-inner {
         margin: 0 auto;
         height: 100%;
-
-        img{
-          margin: 0 auto;
-          height: 100%;
-        }
       }
 
         .Hero-landing-image-wrap{
@@ -103,7 +98,7 @@
           .Hero-hex-2,
           .Hero-hex-3 {
             width: 70%;
-            height: 135%;
+            height: 145%;
             position: absolute;
             background-image: url('../../images/Hero-hex.png');
             background-size: 100% 100%;
@@ -114,7 +109,6 @@
           .Hero-hex-1 {
             right: -20%;
             top: 0;
-
           }
 
           .Hero-hex-2 {
@@ -129,7 +123,7 @@
 
           .Hero-hex-logo {
             width: 200%;
-            height: 85%;
+            height: 95%;
             position: absolute;
             left: 0;
             right: 0;
@@ -166,10 +160,20 @@
             }
 
             .Hero-hex-icon-3{
-              top: 134%;
+              top: 145%;
               right: -15%;
               background-image: url('../../images/Hero-hex-icon-3.png');
             }
+
+      .Hero-right-widescreen-gutter{
+        width: 7.75%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: $green;
+        display: none;
+      }
 
       .greenhaze{
         @include texthaze(darken($green, 10%));

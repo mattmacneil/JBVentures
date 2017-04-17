@@ -53,6 +53,9 @@
 
 				</div><!-- hero right inner -->
 
+				<div class="Hero-right-widescreen-gutter">
+				</div><!-- hero right widescreen gutter -->
+
 			</div><!-- hero right -->
 
 			<div class="clearfix"></div>
