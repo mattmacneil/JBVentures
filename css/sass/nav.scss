@@ -22,17 +22,21 @@
       text-align: right;
       font-family: "dinlight";
 
-      span{
+      a{
         em{
           font-family: "din"; 
         }
+
+        &:hover{
+          color: $orange;
+          @include fader;
+        }
       }
 
-      span::after{
+      a::after{
         content: '\21FE';
         margin-left: 10px;
       }
-
     }
 
   .Navigation-logo {
