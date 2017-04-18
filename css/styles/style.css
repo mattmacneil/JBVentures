@@ -1125,7 +1125,10 @@ footer {
     background-color: #69c040; }
 
   .Hero-right {
-    padding-right: 5%; } }
+    padding-right: 5%; }
+
+  .Hero-right-quote {
+    right: 12.75%; } }
 @media screen and (max-width: 1150px) {
   .Hero-hex-1,
   .Hero-hex-2,
