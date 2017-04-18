@@ -28,7 +28,7 @@
 				<div class="Hero-right-quote u-Color-white">
 
 					&ldquo;I&rsquo;m thrilled about all of the great things JTV is working on for our future and I look forward to sharing even more great news and innovation!&rdquo;
-					<p>&mdash; Amy Wright<br />JVC Director of Operations</p>
+					<p>&mdash; Justin Tuggle<br />JVC Director of Operations</p>
 
 				</div><!-- hero right quote -->
 
