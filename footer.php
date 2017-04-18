@@ -101,7 +101,7 @@
 
 						<div class="footer-block">
 
-							<a href="XXX">Our mission</a><br />
+							<a href="our_mission.php">Our mission</a><br />
 							<a href="XXX">The crew</a><br />
 							<a href="XXX">Our portfolio</a><br />
 							<a href="XXX">Latest news</a><br />

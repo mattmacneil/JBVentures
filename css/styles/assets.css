@@ -126,5 +126,8 @@ input, select {
 @font-face {
   font-family: 'dinbold';
   src: url("../../fonts/dinbold.ttf"); }
+@font-face {
+  font-family: 'cursive';
+  src: url("../../fonts/CoveredByYourGrace.ttf"); }
 
 /*# sourceMappingURL=assets.css.map */
