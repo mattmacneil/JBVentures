@@ -5,7 +5,7 @@
     include "nav.php";
 ?>
 
-<div class="u-Fill-green">
+<div class="u-Fill-green divshadow">
 
 <div class="u-Section-wrap">
 
@@ -47,18 +47,18 @@
 						<div class="Hero-hex-icon-2"></div><!-- hero hex icon 2 -->
 						<div class="Hero-hex-icon-3"></div><!-- hero hex icon 3 -->
 
-						<div class="Hero-hex-arrow-1">
-							<div class="Hero-hex-arrow-inner">
+						<div class="Hero-hex-dot-1">
+							<div class="Hero-hex-dot-inner">
 							</div><!-- hero hex arrow inner -->
 						</div><!-- hero hex arrow 1 -->
 
-						<div class="Hero-hex-arrow-2">
-							<div class="Hero-hex-arrow-inner">
+						<div class="Hero-hex-dot-2">
+							<div class="Hero-hex-dot-inner">
 							</div><!-- hero hex arrow inner -->
 						</div><!-- hero hex arrow 2 -->
 
-						<div class="Hero-hex-arrow-3">
-							<div class="Hero-hex-arrow-inner">
+						<div class="Hero-hex-dot-3">
+							<div class="Hero-hex-dot-inner">
 							</div><!-- hero hex arrow inner -->
 						</div><!-- hero hex arrow 3 -->
 

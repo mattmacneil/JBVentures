@@ -128,7 +128,7 @@
             left: 0;
             right: 0;
             top: 35%;
-            opacity: 0.5;
+            opacity: 0.75;
             background-image: url(../../images/Hero-hex-logo.png);
             background-size: auto 50%;
             background-position: center center;
@@ -144,7 +144,7 @@
             background-position: center center;
             background-repeat: no-repeat;
             background-size: auto 80%;
-            opacity: 0.5;
+            opacity: 0.75;
           }
 
             .Hero-hex-icon-1{
@@ -165,36 +165,37 @@
               background-image: url('../../images/Hero-hex-icon-3.png');
             }
 
-            .Hero-hex-arrow-1,
-            .Hero-hex-arrow-2,
-            .Hero-hex-arrow-3{
+            .Hero-hex-dot-1,
+            .Hero-hex-dot-2,
+            .Hero-hex-dot-3{
               position: absolute;
               width: 10%;
-              height: 1em;
+              height: .75em;
             }
 
-            .Hero-hex-arrow-1 {
+            .Hero-hex-dot-1 {
               left: 75.18%;
               top: 51.25%;
             }
 
-            .Hero-hex-arrow-2{
+            .Hero-hex-dot-2{
               right: -25%;
               top: 51.25%;
             }
 
-            .Hero-hex-arrow-3{
+            .Hero-hex-dot-3{
               right: -5%;
-              top: 125%;
+              top: 127%;
             }
 
-              .Hero-hex-arrow-inner {
-                width: 1em;
-                height: 1em;
+              .Hero-hex-dot-inner {
+                width: .75em;
+                height: .75em;
                 border-radius: 50%;
                 background-color: $white;
                 margin: 0 auto;
-                opacity: 0.5;
+                opacity: 0.75;
+                position: relative;
               }
 
       .Hero-right-widescreen-gutter{
@@ -492,5 +493,9 @@ footer{
     color: orange;
     text-decoration: none;
   }
+}
+
+.divshadow{
+  @include divshadow;
 }
 
