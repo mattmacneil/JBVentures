@@ -102,7 +102,7 @@
 						<div class="footer-block">
 
 							<a href="our_mission.php">Our mission</a><br />
-							<a href="XXX">The crew</a><br />
+							<a href="the_crew.php">The crew</a><br />
 							<a href="XXX">Our portfolio</a><br />
 							<a href="XXX">Latest news</a><br />
 							<a href="XXX">Connect</a>
@@ -159,7 +159,7 @@
 
 	<div class="u-Fill-darkblue Footer-grave u-Color-grey t-center">
 
-		&copy;2017 JetBlue Technology Ventures - NASDAQ : <a href="https://www.google.com/finance?cid=670841" target="_blank">JBLU</a>
+		&copy;2017 JetBlue Technology Ventures | NASDAQ : <a href="https://www.google.com/finance?cid=670841" target="_blank">JBLU</a>
 
 	</div>
 
