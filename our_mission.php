@@ -17,7 +17,7 @@
 
 			<div class="Hero-left u-Color-white greenhaze">
 
-				<h1 class="headliner">See what makes us take off.</h1>
+				<h1 class="headliner">See what makes us take jet?</h1>
 
 				<p class="t-dinregular">JetBlue Technology Ventures takes care to curate a business model and portfolio that reflects our core values.</p>
 
@@ -55,33 +55,13 @@
 
 	<div class="Layout-left">
 
-		<h2 class="headliner u-Color-darkblue">Our portfolio is pretty fly</h2>
+		<h2 class="headliner u-Color-darkblue"><span class="u-Color-lightblue">We Care About:</span><br />Customer and crewmember experience.</h2>
 
 	</div><!-- layout left -->
 
-	<div class="Layout-right u-Section-Pad--side">
+	<div class="Layout-right u-Section-Pad--side u-Fill-lightgrey">
 
-		<p>JetBlue is a company known for award-winning customer service, delivered by helpful and friendly crewmembers. Future technologies to power seamless customer and crewmember interactions across the entire digital and physical travel experience include personalization, geolocation, customization, messaging, virtual reality, improved tools for our crewmembers to deliver magnificent service or enhanced ways to extend the JetBlue brand and culture.</p>
-
-		<p>Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
-
-		<div class="Landing-portfolio-container">
-
-			<a href="http://flyrlabs.com/" target="_blank"><img src="images/Landing-portfolio-flyr.png" alt="Go to www.flyrlabs.com" /></a>
-
-			<a href="https://filament.com/" target="_blank"><img src="images/Landing-portfolio-filament.png" alt="Go to www.filament.com" /></a>
-
-			<a href="http://mozio.com/" target="_blank"><img src="images/Landing-portfolio-mozio.png" alt="Go to www.mozio.com" /></a>
-
-		</div><!-- landing portfolio container -->
-
-		<div class="Landing-portfolio-container">
-
-			<a href="http://zunum.aero/" target="_blank"><img src="images/Landing-portfolio-zunum.png" alt="Go to www.zunum.aero" /></a>
-
-			<a href="https://www.30secondstofly.com/" target="_blank"><img src="images/Landing-portfolio-claire.png" alt="Go to www.30secondstofly.com" /></a>
-
-		</div><!-- landing portfolio container -->
+		greetings
 
 	</div><!-- layout right -->
 
