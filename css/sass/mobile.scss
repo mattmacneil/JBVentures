@@ -110,6 +110,10 @@
 		padding: 75px 5%;
 		background-color: rgba($darkblue, .5);
 		@include texthaze(darken($darkblue, 10%));
+
+		h1{
+			margin-bottom: 25px;
+		}
 	}
 
 	.Hero-right {

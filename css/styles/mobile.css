@@ -71,6 +71,8 @@
     padding: 75px 5%;
     background-color: rgba(19, 42, 79, 0.5);
     text-shadow: #091426 1px 0 15px; }
+    .Hero-left h1 {
+      margin-bottom: 25px; }
 
   .Hero-right {
     display: none; }
