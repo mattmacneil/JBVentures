@@ -648,6 +648,9 @@ input, select {
 .u-Color-lightblue {
   color: #306faa; }
 
+.u-Color-green {
+  color: #69c040; }
+
 .u-Section-Pad {
   padding: 100px 5% 125px 5%; }
   @media screen and (max-width: 700px) {
@@ -958,6 +961,53 @@ input, select {
   width: 100%;
   height: 100%;
   border-radius: 10px; }
+
+.Subpage-hero {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.Subpage-hero-left {
+  width: 25.5%;
+  padding: 100px 0 0px 5%;
+  position: relative; }
+
+.Subpage-hero-left-content {
+  width: 123.75%;
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  z-index: 9999; }
+
+.Subpage-hero-right {
+  width: 74.5%;
+  position: relative;
+  float: right;
+  background-size: cover; }
+
+.Subpage-hero-right-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(19, 42, 79, 0.85); }
+
+.Subpage-hero-right--mission {
+  background-image: url("../../images/Subpage-hero-right--mission.jpg"); }
+
+.Subpage-hero-slice {
+  width: 15%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-image: url("../../images/Subpage-hero-slice.png");
+  background-size: 100% 100%;
+  background-position: left top;
+  background-repeat: no-repeat; }
 
 footer {
   background-color: #306faa; }

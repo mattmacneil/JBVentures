@@ -345,6 +345,69 @@
       border-radius: 10px;
     }
 
+// SUBPAGE GLOBAL 
+
+.Subpage-hero {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+  $Subpage-hero-left-size: 25.5%;
+
+  .Subpage-hero-left { 
+    //width: 36.5%;
+    //width: 23.75%;
+    //width: 32%;
+    width: $Subpage-hero-left-size;
+    padding: 100px 0 0px 5%;
+    position: relative;
+  }
+
+    .Subpage-hero-left-content {
+      width: 123.75%;
+      position: absolute;
+      left: 20%;
+      top: 100px;
+      z-index: 9999;
+    }
+  
+  .Subpage-hero-right { 
+    //width: 80%;
+    width: 100% - $Subpage-hero-left-size;
+    position: relative;
+    float: right;
+    background-size: cover;
+  }
+
+    .Subpage-hero-right-overlay {
+      width: 100%;
+      height: 100%;
+      background-color: rgba($darkblue, .85);
+    }
+
+    .Subpage-hero-right--mission {
+      background-image: url('../../images/Subpage-hero-right--mission.jpg');
+    }
+
+    .Subpage-hero-slice {
+      //width: 17.75%;
+      width: 15%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      background-image: url('../../images/Subpage-hero-slice.png');
+      background-size: 100% 100%;
+      background-position: left top;
+      background-repeat: no-repeat;
+    }
+
 // FOOTER
 
 footer{
