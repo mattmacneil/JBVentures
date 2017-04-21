@@ -133,8 +133,11 @@
 
 		<section class="Landing-culture">
 
-				<div class="Landing-culture-gutter">
-				</div><!-- landing culture gutter -->
+				<div class="Landing-culture-gutter-left">
+				</div><!-- landing culture gutter left -->
+
+				<div class="Landing-culture-gutter-right">
+				</div><!-- landing culture gutter right -->
 
 			<div class="Landing-culture-overlay">
 

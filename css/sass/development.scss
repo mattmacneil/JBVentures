@@ -306,7 +306,7 @@
       }
     }
 
-      .Landing-culture-gutter{
+      .Landing-culture-gutter-left{
         width: 25%;
         position: absolute;
         left: 0;
@@ -315,7 +315,17 @@
         background: transparent;
         background: -webkit-linear-gradient(right, transparent,rgba($darkblue,.1),rgba($darkblue,.2),rgba($darkblue,.3),rgba($darkblue,.4),rgba($darkblue,.5),rgba($darkblue,.6),rgba($darkblue,.7),rgba($darkblue,.8),rgba($darkblue,.9),$darkblue);
         background: linear-gradient(to left, transparent,rgba($darkblue,.1),rgba($darkblue,.2),rgba($darkblue,.3),rgba($darkblue,.4),rgba($darkblue,.5),rgba($darkblue,.6),rgba($darkblue,.7),rgba($darkblue,.8),rgba($darkblue,.9),$darkblue);
-        //display: none;
+        display: none;
+      }
+
+      .Landing-culture-gutter-right{
+        width: 5%;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: $darkblue;
+        display: none;
       }
 
 .Landing-map{
