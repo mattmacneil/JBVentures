@@ -127,23 +127,37 @@
 
 </div><!-- section wrap (landing portfolio) -->
 
+<div class="u-Fill-darkblue">
+
+	<div class="u-Section-wrap">
+
+		<section class="Landing-culture">
+
+				<div class="Landing-culture-gutter-left">
+				</div><!-- landing culture gutter left -->
+
+				<div class="Landing-culture-gutter-right">
+				</div><!-- landing culture gutter right -->
+
+			<div class="Landing-culture-overlay">
+
+				<div class="Landing-culture-left u-Section-Pad u-Color-white">
+
+					<h1 class="headliner">Our culture makes us unique</h1>
+
+					<p class="t-dinregular">Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
+
+				</div><!-- landing culture left -->
+
+			</div><!-- landing culture overlay -->
+
+		</section><!-- landing culture -->
+
+	</div><!-- section wrap (culture) -->
+
+</div><!-- fill (culture) -->
+
 <div class="u-Section-wrap">
-
-<section class="Landing-culture">
-
-	<div class="Landing-culture-overlay">
-
-		<div class="Landing-culture-left u-Section-Pad u-Color-white">
-
-			<h1 class="headliner">Our culture makes us unique</h1>
-
-			<p class="t-dinregular">Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
-
-		</div><!-- landing culture left -->
-
-	</div><!-- landing culture overlay -->
-
-</section><!-- landing culture -->
 
 <section class="UnderHero u-Section-Pad Landing-map">
 
