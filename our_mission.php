@@ -5,19 +5,21 @@
     include "nav.php";
 ?>
 
-<div class="divshadow u-Fill-lightgrey">
+<div class="u-Fill-lightgrey Subpage-hero-bg">
 
 	<div class="u-Section-wrap">
 
-		<section class="newSubpage-hero u-Section-Pad">
+		<section class="Subpage-hero u-Section-Pad--subhero t-center">
 
-			<span class="headliner u-Color-lightblue" ><span class="u-Color-darkblue">Our mission &ndash;<br /></span>see what we care about.</span>
+			<span class="headliner u-Color-darkblue" ><span class="u-Color-lightblue">Our mission &ndash;<br /></span>see what we care about.</span>
 
 		</section><!-- newSubpage hero -->
 
 	</div><!-- section wrap: subpage hero -->
 
 </div><!-- subpage bg -->
+
+hi
 
 <div style="width: 100%; height: 400px;"></div>
 

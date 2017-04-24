@@ -135,7 +135,10 @@
     padding-bottom: 50px; }
     .Footer-newsletter .Layout-left {
       margin-bottom: 25px;
-      padding-bottom: 0; } }
+      padding-bottom: 0; }
+
+  .Subpage-hero {
+    background-size: auto 50px; } }
 @media screen and (max-width: 500px) {
   .Footer-block-container {
     -webkit-box-orient: vertical;

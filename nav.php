@@ -1,4 +1,4 @@
-
+	
 <div class="u-Fill-lightgrey">
 
 <div class="u-Section-wrap">
@@ -7,7 +7,7 @@
 
 		<div class="Navigation-newsbar-align u-Fill-lightgrey u-Section-Pad--side u-Color-grey">
 
-			<a href="XXX" class="noline"><em>NEWS:</em> Filament Receives $15M in New Funding for Industrial IoT</a>
+			<a href="news.php#topstory" class="noline"><em>NEWS:</em> Filament Receives $15M in New Funding for Industrial IoT</a>
 
 		</div><!-- navigation newsbar align -->
 

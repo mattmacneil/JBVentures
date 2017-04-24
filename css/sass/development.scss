@@ -371,8 +371,19 @@
 
 // SUBPAGE GLOBAL 
 
+.Subpage-hero-bg {
+  background-image: url('../../images/Subpage-hero-bg.png');
+  background-size: 200px auto;
+}
+
 .Subpage-hero {
   width: 100%;
+  background-image: url('../../images/Subpage-hero.png');
+  background-position: right bottom;
+  //background-size: auto 100px;
+  background-size: auto 90px;
+  background-repeat: no-repeat;
+  @include texthaze($lightgrey);
 }
 
 // FOOTER
@@ -565,5 +576,9 @@ footer{
 
 .divshadow{
   @include divshadow;
+}
+
+.divshadow--light {
+  @include divshadow(lighten($grey, 35%));
 }
 
