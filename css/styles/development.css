@@ -62,8 +62,8 @@
 .Hero-left {
   width: 36.5%;
   height: 100%;
-  background-color: #69c040;
-  background-color: rgba(105, 192, 64, 0.75);
+  background-color: #75c147;
+  background-color: rgba(117, 193, 71, 0.75);
   padding: 100px 5% 0 5%;
   float: left; }
   .Hero-left h1 {
@@ -194,11 +194,11 @@
   right: 0;
   top: 0;
   bottom: 0;
-  background-color: #69c040;
+  background-color: #75c147;
   display: none; }
 
 .greenhaze {
-  text-shadow: #549a33 1px 0 15px; }
+  text-shadow: #5e9f36 1px 0 15px; }
 
 .Layout-left {
   width: 35%;
@@ -297,36 +297,50 @@
   height: 100%;
   border-radius: 10px; }
 
+.newSubpage-hero {
+  width: 100%; }
+
+/*
+
 .Subpage-hero {
   width: 100%;
-  background-color: #f1f5f8;
+  //height: calc(100vh - 140px);
+  background-color: $lightgrey;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+}
 
-.Subpage-hero-overlay {
-  width: 100%;
-  height: 100%; }
+  .Subpage-hero-overlay {
+    width: 100%;
+    height: 100%;
+    //background-image: url('../../images/stripe.png');
+  }
 
-.Subpage-hero-left {
-  width: 36.5%;
-  height: 100%;
-  float: left; }
+  .Subpage-hero--mission {
+    //background-image: url('../../images/Subpage-hero-right--mission.jpg');
+  }
 
-.Subpage-hero-right {
-  width: 58.5%;
-  float: left;
-  height: 100%;
-  background-color: #69c040;
-  -webkit-border-bottom-right-radius: 10px;
-  -webkit-border-bottom-left-radius: 10px;
-  -moz-border-radius-bottomright: 10px;
-  -moz-border-radius-bottomleft: 10px;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px; }
+  .Subpage-hero-left {
+    width: 36.5%;
+    height: 100%;
+    float: left;
+    //background-image: url('../../images/stripe.png');
+  }
 
-/*
+  .Subpage-hero-right {
+    width: 58.5%;
+    float: left;
+    height: 100%;
+    background-color: $green;
+-webkit-border-bottom-right-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+  }
 
 .Subpage-hero {
   width: 100%;
@@ -423,7 +437,7 @@ footer {
   border-radius: 10px;
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 #549a33;
+  box-shadow: 0 2px 5px 0 #5e9f36;
   cursor: pointer; }
 
 .NewsletterFields {
@@ -445,7 +459,7 @@ footer {
     border-radius: 10px;
     transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 0.2s;
-    box-shadow: 0 2px 5px 0 #549a33;
+    box-shadow: 0 2px 5px 0 #5e9f36;
     font-family: "dinbold";
     background-color: #f90;
     color: #fff;
