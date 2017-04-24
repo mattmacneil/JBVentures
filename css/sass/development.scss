@@ -13,6 +13,17 @@
   }
 }
 
+.headliner-quotes{
+  font-size: 1.25em;
+  line-height: 1;
+  overflow-y: visible;
+
+  @media screen and (max-width: 850px){
+    font-size: 1em;
+
+  }
+}
+
 .Hero {
   width: 100%;
   position: relative;

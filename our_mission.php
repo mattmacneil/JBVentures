@@ -11,7 +11,7 @@
 
 		<section class="Subpage-hero u-Section-Pad--subhero">
 
-			<span class="headliner u-Color-darkblue" ><span class="u-Color-lightblue">Our mission &ndash;<br /></span>see what we care about.</span>
+			<span class="headliner u-Color-lightblue" ><span class="u-Color-green">Our mission &ndash;<br /></span>see what we care about.</span>
 
 		</section><!-- newSubpage hero -->
 
@@ -25,33 +25,22 @@
 
 	<div class="Layout-left">
 
-		<h2 class="headliner u-Color-darkblue">We're focused on the future:</h2>
+		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
+
+		&mdash; Justin Tuggle,<br />
+		Director of Communications, JVC
 
 	</div><!-- layout left -->
 
 	<div class="Layout-right u-Section-Pad--side">
 
-		<p>JetBlue is a company known for award-winning customer service, delivered by helpful and friendly crewmembers. Future technologies to power seamless customer and crewmember interactions across the entire digital and physical travel experience include personalization, geolocation, customization, messaging, virtual reality, improved tools for our crewmembers to deliver magnificent service or enhanced ways to extend the JetBlue brand and culture.</p>
+		<p><span class="t-dinbold t-itemheader">Customer and crewmember experience</span><br />JetBlue is a company known for award-winning customer service, delivered by helpful and friendly crewmembers. Future technologies to power seamless customer and crewmember interactions across the entire digital and physical travel experience include personalization, geolocation, customization, messaging, virtual reality, improved tools for our crewmembers to deliver magnificent service or enhanced ways to extend the JetBlue brand and culture.</p>
 
-		<p>Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
+		<p><span class="t-dinbold t-itemheader">Connectivity, digital
+		and data</span><br />Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
 
-		<div class="Landing-portfolio-container">
-
-			<a href="http://flyrlabs.com/" target="_blank"><img src="images/Landing-portfolio-flyr.png" alt="Go to www.flyrlabs.com" /></a>
-
-			<a href="https://filament.com/" target="_blank"><img src="images/Landing-portfolio-filament.png" alt="Go to www.filament.com" /></a>
-
-			<a href="http://mozio.com/" target="_blank"><img src="images/Landing-portfolio-mozio.png" alt="Go to www.mozio.com" /></a>
-
-		</div><!-- landing portfolio container -->
-
-		<div class="Landing-portfolio-container">
-
-			<a href="http://zunum.aero/" target="_blank"><img src="images/Landing-portfolio-zunum.png" alt="Go to www.zunum.aero" /></a>
-
-			<a href="https://www.30secondstofly.com/" target="_blank"><img src="images/Landing-portfolio-claire.png" alt="Go to www.30secondstofly.com" /></a>
-
-		</div><!-- landing portfolio container -->
+		<p><span class="t-dinbold t-itemheader">Operations
+		and logistics</span><br />Behind every exceptional customer experience is a precise operation. The future includes planning and logistics powered by machine learning, artificial intelligence and technology enhancements in logistics, mobility and next generation navigation.</p>
 
 	</div><!-- layout right -->
 

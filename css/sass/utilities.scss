@@ -40,6 +40,9 @@
 	color: $green;
 }
 
+.u-Color-lightgrey{
+	color: $lightgrey;
+}
 
 .u-Section-Pad {
 	padding: 100px 5% 125px 5%;
@@ -54,10 +57,10 @@
 }
 
 .u-Section-Pad--subhero {
-	padding: 75px 5% 125px 5%;
+	padding: 75px 5% 150px 5%;
 
 	@media screen and (max-width: 850px){
-		padding: 50px 5% 75px 5%;
+		padding: 50px 5% 100px 5%;
 	}
 
 	@media screen and (max-width: 700px){
@@ -86,12 +89,25 @@
 	font-family: "din";
 }
 
+.t-dinbold{
+	font-family: "dinbold";
+}
+
+.t-cursive{
+	font-family: "cursive";
+}
+
 .t-center{
 	text-align: center;
 }
 
 .t-right{
 	text-align: right;
+}
+
+.t-itemheader {
+	display: inline-block;
+	margin-bottom: 10px;
 }
 
 .u-Float--right{

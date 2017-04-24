@@ -29,6 +29,9 @@
 .u-Color-green {
   color: #75c147; }
 
+.u-Color-lightgrey {
+  color: #f1f5f8; }
+
 .u-Section-Pad {
   padding: 100px 5% 125px 5%; }
   @media screen and (max-width: 700px) {
@@ -39,10 +42,10 @@
   padding: 0 5%; }
 
 .u-Section-Pad--subhero {
-  padding: 75px 5% 125px 5%; }
+  padding: 75px 5% 150px 5%; }
   @media screen and (max-width: 850px) {
     .u-Section-Pad--subhero {
-      padding: 50px 5% 75px 5%; } }
+      padding: 50px 5% 100px 5%; } }
   @media screen and (max-width: 700px) {
     .u-Section-Pad--subhero {
       padding: 25px 5% 75px 5%; } }
@@ -63,11 +66,21 @@
 .t-dinregular {
   font-family: "din"; }
 
+.t-dinbold {
+  font-family: "dinbold"; }
+
+.t-cursive {
+  font-family: "cursive"; }
+
 .t-center {
   text-align: center; }
 
 .t-right {
   text-align: right; }
+
+.t-itemheader {
+  display: inline-block;
+  margin-bottom: 10px; }
 
 .u-Float--right {
   float: right !important; }
