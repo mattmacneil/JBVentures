@@ -7,6 +7,35 @@
 
 <div class="u-Section-wrap">
 
+	<div class="Subpage-hero Subpage-hero--mission">
+
+		<div class="Subpage-hero-overlay">
+
+			<div class="Subpage-hero-left u-Section-Pad">
+
+				<span class="headliner u-Color-lightblue" ><span class="u-Color-green">Our mission:<br /></span>see what we care about.</span>
+
+			</div><!-- subpage hero left -->
+
+			<div class="Subpage-hero-right u-Section-Pad">
+
+				hi
+
+			</div><!-- subpage hero right -->
+
+			<div class="clearfix"></div>
+
+		</div><!-- subpage hero overlay -->
+
+	</div><!-- subpage hero -->
+
+</div><!-- section wrap (subpage hero) -->
+
+<div style="width: 100%; height: 400px;"></div>
+
+
+<div class="u-Section-wrap">
+
 <div class="Subpage-hero">
 
 	<div class="Subpage-hero-left u-Fill-lightgrey">
