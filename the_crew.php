@@ -6,6 +6,7 @@
 ?>
 
 <div class="u-Fill-lightgrey Subpage-hero-bg">
+<div class="Subpage-hero-clouds">
 
 	<div class="u-Section-wrap">
 
@@ -17,6 +18,7 @@
 
 	</div><!-- section wrap: subpage hero -->
 
+</div><!-- subpage clouds -->
 </div><!-- subpage bg -->
 
 <div class="u-Section-wrap">
@@ -156,7 +158,7 @@
 
 	<div class="u-Section-wrap u-Section-Pad">
 
-		<span class="headliner u-marbottom-25">Advisory board:</span><br /><br />
+		<span class="headliner u-marbottom-25 u-Color-darkblue">Advisory board:</span><br /><br />
 
 		<div class="Advisory-board-wrapper">
 

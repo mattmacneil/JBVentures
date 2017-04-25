@@ -6,6 +6,7 @@
 ?>
 
 <div class="u-Fill-lightgrey Subpage-hero-bg">
+<div class="Subpage-hero-clouds">
 
 	<div class="u-Section-wrap">
 
@@ -17,6 +18,7 @@
 
 	</div><!-- section wrap: subpage hero -->
 
+</div><!-- subpage clouds -->
 </div><!-- subpage bg -->
 
 <div class="u-Section-wrap">

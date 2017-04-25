@@ -309,12 +309,16 @@
   background-image: url("../../images/Subpage-hero-bg.png");
   background-size: 200px auto; }
 
+.Subpage-hero-clouds {
+  width: 100%;
+  height: 100%;
+  background-image: url("../../images/Subpage-hero.png");
+  background-position: bottom;
+  background-size: auto 90px;
+  background-repeat: repeat-x; }
+
 .Subpage-hero {
   width: 100%;
-  background-image: url("../../images/Subpage-hero.png");
-  background-position: right bottom;
-  background-size: auto 90px;
-  background-repeat: no-repeat;
   text-shadow: #f1f5f8 1px 0 15px; }
 
 .Crew-image-wrapper {
