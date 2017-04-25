@@ -317,6 +317,46 @@
   background-repeat: no-repeat;
   text-shadow: #f1f5f8 1px 0 15px; }
 
+.Crew-image-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.Crew-portrait {
+  width: 50%;
+  margin-bottom: 8px;
+  background-size: cover;
+  background-position: center center; }
+  .Crew-portrait:after {
+    content: "";
+    display: inline-block;
+    padding-bottom: 100%; }
+
+.Crew-details {
+  width: 50%;
+  background-color: #f1f5f8;
+  margin-bottom: 8px;
+  padding: 25px;
+  position: relative; }
+  .Crew-details span:first-of-type {
+    font-family: "dinblack";
+    display: inline-block;
+    margin-bottom: 10px; }
+
+.Crew-details-links {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 25px;
+  padding: 0 25px;
+  text-align: right; }
+
 .Crew-image-wrap {
   width: 100%;
   display: -webkit-box;

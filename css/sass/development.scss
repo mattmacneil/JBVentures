@@ -399,6 +399,54 @@
 
 // SUBPAGE CREW
 
+  .Crew-image-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+    .Crew-portrait {
+      width: 50%;
+      margin-bottom: 8px;
+      background-size: cover;
+      background-position: center center;
+
+      &:after{
+        content: "";
+        display: inline-block;
+        padding-bottom: 100%;
+      }
+    }
+
+    .Crew-details {
+      width: 50%;
+      background-color: $lightgrey;
+      margin-bottom: 8px;
+      padding: 25px;
+      position: relative;
+
+      span:first-of-type{
+        font-family: "dinblack";
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+    }
+
+      .Crew-details-links {
+        position: absolute;
+        width: 100%;
+        right: 0;
+        bottom: 25px;
+        padding: 0 25px;
+        text-align: right;
+      }
+
   .Crew-image-wrap {
     width: 100%;
     display: -webkit-box;

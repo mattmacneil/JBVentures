@@ -34,6 +34,87 @@
 
 	<div class="Layout-right u-Section-Pad--side">
 
+		<div class="Crew-image-wrapper">
+
+			<div class="Crew-portrait Crew-image--Simi"></div>
+
+			<div class="Crew-details">
+				<span>Bonny Simi</span><br />
+				<span>President</span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
+
+			<div class="Crew-portrait Crew-image--Singh"></div>
+
+			<div class="Crew-details">
+				<span>Raj Singh</span><br />
+				<span>Managing Director</span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
+
+			<div class="Crew-portrait Crew-image--Schiller"></div>
+
+			<div class="Crew-details">
+				<span>Anna Schiller</span><br />
+				<span>Operating Principal </span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
+
+
+
+
+
+			<div class="Crew-portrait Crew-image--Sharma"></div>
+
+			<div class="Crew-details">
+				<span>Ajay Sharma</span><br />
+				<span>Investment Associate</span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
+
+
+			<div class="Crew-portrait Crew-image--Heggie"></div>
+
+			<div class="Crew-portrait Crew-image--Posey"></div>
+
+			<div class="Crew-portrait Crew-image--Kilp"></div>
+
+		</div><!-- crew image wrapper -->
+
+	</div><!-- layout right -->
+
+	<div class="clearfix"></div>
+
+	<div style="height: 200px;">hi</div>
+
+	<div class="Layout-left">
+
+		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
+
+		&mdash; Justin Tuggle,<br />
+		Director of Communications, JVC
+
+	</div><!-- layout left -->
+
+
+	<div class="Layout-right u-Section-Pad--side">
+
 		<div class="Crew-image-wrap">
 
 			<div class="Crew-image Crew-image--Simi">
