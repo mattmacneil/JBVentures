@@ -407,28 +407,35 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
   }
 
     .Crew-image{
-      width: 33%;
+      width: 32%;
       height: 300px;
-      background-color: lightgrey;
-      @include rounded(10px);
+      @include rounded(5px);
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      @include divshadow(darken($lightgrey, 10%));
+    }
+
+    .Crew-image-slug{
+      width: 32%;
     }
 
       .Crew-image-overlay {
         width: 100%;
         height: 100%;
-        background-color: rgba($darkblue, .25);
         position: relative;
-        @include rounded(10px);
+        @include rounded(5px);
       }
 
         .Crew-image-name {
           position: absolute;
           left: 10px;
           bottom: 25px;
+          @include texthaze($black);
         }
 
         .Crew-image-link {
@@ -448,8 +455,57 @@
         .Crew-image-link{
           display: inline-block;
         }
+        background-color: rgba($darkblue, .75);
         @include fader;
       }
+
+        .Crew-image--Simi {
+          background-image: url('../../images/Crew-image--Simi.jpg');
+        }
+
+        .Crew-image--Singh {
+          background-image: url('../../images/Crew-image--Singh.jpg');
+        }
+
+        .Crew-image--Sharma {
+          background-image: url('../../images/Crew-image--Sharma.jpg');
+        }
+
+        .Crew-image--Heggie {
+          background-image: url('../../images/Crew-image--Heggie.jpg');
+        }
+
+        .Crew-image--Schiller {
+          background-image: url('../../images/Crew-image--Schiller.jpg');
+        }
+
+        .Crew-image--Posey {
+          background-image: url('../../images/Crew-image--Posey.jpg');
+        }
+
+        .Crew-image--Kilp {
+          background-image: url('../../images/Crew-image--Kilp.jpg');
+        }
+
+        .Crew-image--Sundaram {
+          background-image: url('../../images/Crew-image--Sundaram.jpg');
+        }
+
+        .Crew-image--StGeorge {
+          background-image: url('../../images/Crew-image--StGeorge.jpg');
+        }
+
+        .Crew-image--Nelson {
+          background-image: url('../../images/Crew-image--Nelson.jpg');
+        }
+
+        .Crew-image--Elder {
+          background-image: url('../../images/Crew-image--Elder.jpg');
+        }
+
+        .Crew-image--Priest {
+          background-image: url('../../images/Crew-image--Priest.jpg');
+        }
 
 // FOOTER
 

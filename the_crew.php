@@ -36,7 +36,7 @@
 
 		<div class="Crew-image-wrap">
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Simi">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
@@ -48,7 +48,7 @@
 				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Singh">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
@@ -60,7 +60,7 @@
 				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Sharma">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
@@ -76,7 +76,7 @@
 
 		<div class="Crew-image-wrap">
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Heggie">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
@@ -88,7 +88,7 @@
 				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Schiller">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
@@ -100,7 +100,7 @@
 				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Posey">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
@@ -116,35 +116,11 @@
 
 		<div class="Crew-image-wrap" style="margin-bottom: 0;">
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Kilp">
 				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
 					<div class="Crew-image-name u-Color-white t-dinbold">
 						Timo Kilp
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Anna Schiller
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Dana Posey
 					</div><!-- crew image name -->
 					<div class="Crew-image-link">
 					</div><!-- crew image link -->
@@ -157,7 +133,6 @@
 	</div><!-- layout right -->
 
 	<div class="clearfix"></div>
-
 
 	<div class="Layout-left">
 
@@ -178,45 +153,72 @@
 
 		<div class="Crew-image-wrap">
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Sundaram">
+				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
-				hi
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Eash Sundaram
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
 				</div><!-- crew image overlay -->
+				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--StGeorge">
+				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
-				hi
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Marty St. George
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
 				</div><!-- crew image overlay -->
+				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Nelson">
+				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
-				hi
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Brandon Nelson
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
 				</div><!-- crew image overlay -->
+				</a>
 			</div><!-- crew image -->
 
 		</div><!-- crew image wrap -->
 
 		<div class="Crew-image-wrap" style="margin-bottom: 0;">
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Elder">
+				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
-					hi
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Nancy Elder
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
 				</div><!-- crew image overlay -->
+				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
+			<div class="Crew-image Crew-image--Priest">
+				<a href="linkedin.com" class="noline" target="_blank">
 				<div class="Crew-image-overlay">
-					hi
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Steve Priest
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
 				</div><!-- crew image overlay -->
+				</a>
 			</div><!-- crew image -->
 
-			<div class="Crew-image">
-				<div class="Crew-image-overlay">
-					hi
-				</div><!-- crew image overlay -->
-			</div><!-- crew image -->
+			<div class="Crew-image-slug">
+			</div><!-- crew image slug -->
 
 		</div><!-- crew image wrap -->
 

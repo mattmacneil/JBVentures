@@ -1034,31 +1034,39 @@ input, select {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-bottom: 5px; }
+  margin-bottom: 15px; }
 
 .Crew-image {
-  width: 33%;
+  width: 32%;
   height: 300px;
-  background-color: lightgrey;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px; }
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  box-shadow: 0 2px 5px 0 #cfdde7; }
+
+.Crew-image-slug {
+  width: 32%; }
 
 .Crew-image-overlay {
   width: 100%;
   height: 100%;
-  background-color: rgba(19, 42, 79, 0.25);
   position: relative;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px; }
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
 
 .Crew-image-name {
   position: absolute;
   left: 10px;
-  bottom: 25px; }
+  bottom: 25px;
+  text-shadow: #454545 1px 0 15px; }
 
 .Crew-image-link {
   position: absolute;
@@ -1073,6 +1081,7 @@ input, select {
   display: none; }
 
 .Crew-image-overlay:hover {
+  background-color: rgba(19, 42, 79, 0.75);
   -khtml-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -1081,6 +1090,42 @@ input, select {
   transition: all 0.3s; }
   .Crew-image-overlay:hover .Crew-image-link {
     display: inline-block; }
+
+.Crew-image--Simi {
+  background-image: url("../../images/Crew-image--Simi.jpg"); }
+
+.Crew-image--Singh {
+  background-image: url("../../images/Crew-image--Singh.jpg"); }
+
+.Crew-image--Sharma {
+  background-image: url("../../images/Crew-image--Sharma.jpg"); }
+
+.Crew-image--Heggie {
+  background-image: url("../../images/Crew-image--Heggie.jpg"); }
+
+.Crew-image--Schiller {
+  background-image: url("../../images/Crew-image--Schiller.jpg"); }
+
+.Crew-image--Posey {
+  background-image: url("../../images/Crew-image--Posey.jpg"); }
+
+.Crew-image--Kilp {
+  background-image: url("../../images/Crew-image--Kilp.jpg"); }
+
+.Crew-image--Sundaram {
+  background-image: url("../../images/Crew-image--Sundaram.jpg"); }
+
+.Crew-image--StGeorge {
+  background-image: url("../../images/Crew-image--StGeorge.jpg"); }
+
+.Crew-image--Nelson {
+  background-image: url("../../images/Crew-image--Nelson.jpg"); }
+
+.Crew-image--Elder {
+  background-image: url("../../images/Crew-image--Elder.jpg"); }
+
+.Crew-image--Priest {
+  background-image: url("../../images/Crew-image--Priest.jpg"); }
 
 footer {
   background-color: #306faa; }
