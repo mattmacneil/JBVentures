@@ -72,9 +72,24 @@
 				</div>
 			</div><!-- crew details -->
 
+		</div><!-- crew image wrapper -->
 
+	</div><!-- layout right -->
 
+	<div class="clearfix"></div>
 
+	<div class="Layout-left">
+
+		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
+
+		&mdash; Justin Tuggle,<br />
+		Director of Communications, JVC
+
+	</div><!-- layout left -->
+
+	<div class="Layout-right u-Section-Pad--side">
+
+		<div class="Crew-image-wrapper">
 
 			<div class="Crew-portrait Crew-image--Sharma"></div>
 
@@ -88,12 +103,44 @@
 				</div>
 			</div><!-- crew details -->
 
-
 			<div class="Crew-portrait Crew-image--Heggie"></div>
+
+			<div class="Crew-details">
+				<span>Christina Heggie</span><br />
+				<span>Investment Associate</span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					tel: 555.555.5555<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
 
 			<div class="Crew-portrait Crew-image--Posey"></div>
 
+			<div class="Crew-details">
+				<span>Dana Posey</span><br />
+				<span>Operations Manager</span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					tel: 555.555.5555<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
+
 			<div class="Crew-portrait Crew-image--Kilp"></div>
+
+			<div class="Crew-details">
+				<span>Timo Kilp</span><br />
+				<span>Investment Analyst</span>
+				<div class="Crew-details-links">
+					email@email.com<br />
+					tel: 555.555.5555<br />
+					linkedin:<br />
+					twitter:
+				</div>
+			</div><!-- crew details -->
 
 		</div><!-- crew image wrapper -->
 
@@ -101,219 +148,93 @@
 
 	<div class="clearfix"></div>
 
-	<div style="height: 200px;">hi</div>
-
-	<div class="Layout-left">
-
-		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
-
-		&mdash; Justin Tuggle,<br />
-		Director of Communications, JVC
-
-	</div><!-- layout left -->
-
-
-	<div class="Layout-right u-Section-Pad--side">
-
-		<div class="Crew-image-wrap">
-
-			<div class="Crew-image Crew-image--Simi">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Bonny Simi
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--Singh">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Raj Singh
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--Sharma">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Ajay Sharma
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-		</div><!-- crew image wrap -->
-
-		<div class="Crew-image-wrap">
-
-			<div class="Crew-image Crew-image--Heggie">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Christina Heggie
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--Schiller">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Anna Schiller
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--Posey">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Dana Posey
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-		</div><!-- crew image wrap -->
-
-		<div class="Crew-image-wrap" style="margin-bottom: 0;">
-
-			<div class="Crew-image Crew-image--Kilp">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Timo Kilp
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-		</div><!-- crew image wrap -->
-
-	</div><!-- layout right -->
-
-	<div class="clearfix"></div>
-
-	<div class="Layout-left">
-
-		<div style="padding: 25px 0">&nbsp;</div>
-
-		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
-
-		&mdash; Justin Tuggle,<br />
-		Director of Communications, JVC
-
-	</div><!-- layout left -->
-
-	<div class="Layout-right u-Section-Pad--side">
-
-		<div style="padding: 25px 0">
-			<span class="t-dinbold">Our Advisory Board:</span>
-		</div>
-
-		<div class="Crew-image-wrap">
-
-			<div class="Crew-image Crew-image--Sundaram">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Eash Sundaram
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--StGeorge">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Marty St. George
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--Nelson">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Brandon Nelson
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-		</div><!-- crew image wrap -->
-
-		<div class="Crew-image-wrap" style="margin-bottom: 0;">
-
-			<div class="Crew-image Crew-image--Elder">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Nancy Elder
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image Crew-image--Priest">
-				<a href="linkedin.com" class="noline" target="_blank">
-				<div class="Crew-image-overlay">
-					<div class="Crew-image-name u-Color-white t-dinbold">
-						Steve Priest
-					</div><!-- crew image name -->
-					<div class="Crew-image-link">
-					</div><!-- crew image link -->
-				</div><!-- crew image overlay -->
-				</a>
-			</div><!-- crew image -->
-
-			<div class="Crew-image-slug">
-			</div><!-- crew image slug -->
-
-		</div><!-- crew image wrap -->
-
-	</div><!-- layout right -->
-
-	<div class="clearfix"></div>
-
 </section><!-- underhero -->
 
-</section><!-- underhero -->
+</div><!-- section wrap (crew profiles) -->
 
+<div class="u-Fill-lightgrey">
 
+	<div class="u-Section-wrap u-Section-Pad">
 
-</div><!-- section wrap (mission fields) -->
+		<span class="headliner u-marbottom-25">Advisory board:</span><br /><br />
+
+		<div class="Advisory-board-wrapper">
+
+			<div class="Advisory-portrait Crew-image--Sundaram">
+				<a href="XXX" target="_blank" class="noline">
+				<div class="Advisory-portrait-content">
+					<div class="Advisory-portrait-content-overlay">
+						<div class="Advisory-portrait-link">
+						</div><!-- advisory portrait link -->
+						<div class="Advisory-portrait-name">
+							Eash Sundaram
+						</div><!-- advisory portrait name -->
+					</div><!-- advisory portrait content overlay -->
+				</div><!-- advisory portrait content -->
+				</a>
+			</div><!-- advisory portrait -->
+
+			<div class="Advisory-portrait Crew-image--StGeorge">
+				<a href="XXX" target="_blank" class="noline">
+				<div class="Advisory-portrait-content">
+					<div class="Advisory-portrait-content-overlay">
+						<div class="Advisory-portrait-link">
+						</div><!-- advisory portrait link -->
+						<div class="Advisory-portrait-name">
+							Marty St. George
+						</div><!-- advisory portrait name -->
+					</div><!-- advisory portrait content overlay -->
+				</div><!-- advisory portrait content -->
+				</a>
+			</div><!-- advisory portrait -->
+
+			<div class="Advisory-portrait Crew-image--Nelson">
+				<a href="XXX" target="_blank" class="noline">
+				<div class="Advisory-portrait-content">
+					<div class="Advisory-portrait-content-overlay">
+						<div class="Advisory-portrait-link">
+						</div><!-- advisory portrait link -->
+						<div class="Advisory-portrait-name">
+							Brandon Nelson
+						</div><!-- advisory portrait name -->
+					</div><!-- advisory portrait content overlay -->
+				</div><!-- advisory portrait content -->
+				</a>
+			</div><!-- advisory portrait -->
+
+			<div class="Advisory-portrait Crew-image--Elder">
+				<a href="XXX" target="_blank" class="noline">
+				<div class="Advisory-portrait-content">
+					<div class="Advisory-portrait-content-overlay">
+						<div class="Advisory-portrait-link">
+						</div><!-- advisory portrait link -->
+						<div class="Advisory-portrait-name">
+							Nancy Elder
+						</div><!-- advisory portrait name -->
+					</div><!-- advisory portrait content overlay -->
+				</div><!-- advisory portrait content -->
+				</a>
+			</div><!-- advisory portrait -->
+
+			<div class="Advisory-portrait Crew-image--Priest">
+				<a href="XXX" target="_blank" class="noline">
+				<div class="Advisory-portrait-content">
+					<div class="Advisory-portrait-content-overlay">
+						<div class="Advisory-portrait-link">
+						</div><!-- advisory portrait link -->
+						<div class="Advisory-portrait-name">
+							Steve Priest
+						</div><!-- advisory portrait name -->
+					</div><!-- advisory portrait content overlay -->
+				</div><!-- advisory portrait content -->
+				</a>
+			</div><!-- advisory portrait -->
+
+		</div><!-- advisory board wrapper -->
+
+	</div><!-- section wrap advisory board -->
+
+</div><!-- advisory board bg -->
 
 <?php 
 

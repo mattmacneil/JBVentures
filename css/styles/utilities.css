@@ -57,6 +57,10 @@
 .u-Padding--zero {
   padding: 0; }
 
+.u-marbottom-25 {
+  margin-bottom: 25px;
+  display: inline-block; }
+
 .u-marbottom-50 {
   margin-bottom: 50px; }
 

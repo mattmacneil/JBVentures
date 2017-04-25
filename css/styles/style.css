@@ -679,6 +679,10 @@ input, select {
 .u-Padding--zero {
   padding: 0; }
 
+.u-marbottom-25 {
+  margin-bottom: 25px;
+  display: inline-block; }
+
 .u-marbottom-50 {
   margin-bottom: 50px; }
 
@@ -1066,71 +1070,6 @@ input, select {
   padding: 0 25px;
   text-align: right; }
 
-.Crew-image-wrap {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-bottom: 15px; }
-
-.Crew-image {
-  width: 32%;
-  height: 300px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0.2s;
-  box-shadow: 0 2px 5px 0 #cfdde7; }
-
-.Crew-image-slug {
-  width: 32%; }
-
-.Crew-image-overlay {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px; }
-
-.Crew-image-name {
-  position: absolute;
-  left: 10px;
-  bottom: 25px;
-  text-shadow: #454545 1px 0 15px; }
-
-.Crew-image-link {
-  position: absolute;
-  right: 0px;
-  top: 25px;
-  width: 100%;
-  height: 20px;
-  background-size: auto 100%;
-  background-repeat: no-repeat;
-  background-position: right 10px top;
-  background-image: url("../../images/Crew-image-link.png");
-  display: none; }
-
-.Crew-image-overlay:hover {
-  background-color: rgba(19, 42, 79, 0.75);
-  -khtml-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -ms-transition: all 0.3s;
-  transition: all 0.3s; }
-  .Crew-image-overlay:hover .Crew-image-link {
-    display: inline-block; }
-
 .Crew-image--Simi {
   background-image: url("../../images/Crew-image--Simi.jpg"); }
 
@@ -1166,6 +1105,77 @@ input, select {
 
 .Crew-image--Priest {
   background-image: url("../../images/Crew-image--Priest.jpg"); }
+
+.Advisory-board-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.Advisory-portrait {
+  width: 19.5%;
+  background-color: #f1f5f8;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+  .Advisory-portrait:after {
+    content: "";
+    padding-bottom: 100%;
+    display: block; }
+
+.Advisory-portrait-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.Advisory-portrait-content-overlay {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px; }
+
+.Advisory-portrait-link {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 50%;
+  height: 25px;
+  background-image: url("../../images/Advisory-portrait-link.png");
+  background-size: auto 100%;
+  background-position: right top;
+  background-repeat: no-repeat;
+  display: none; }
+
+.Advisory-portrait-name {
+  position: absolute;
+  left: 25px;
+  bottom: 25px;
+  text-shadow: #2c2c2c 1px 0 15px;
+  color: #fff;
+  font-family: "dinbold"; }
+
+.Advisory-portrait-content-overlay:hover {
+  background-color: rgba(19, 42, 79, 0.75);
+  -khtml-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+  .Advisory-portrait-content-overlay:hover .Advisory-portrait-link {
+    display: inline-block; }
 
 footer {
   background-color: #306faa; }
