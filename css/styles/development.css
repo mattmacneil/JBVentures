@@ -523,7 +523,8 @@ footer {
     font-family: "dinbold";
     background-color: #f90;
     color: #fff;
-    text-shadow: #666666 1px 0 15px; }
+    text-shadow: #666666 1px 0 15px;
+    cursor: pointer; }
 
 .NewsletterFields-left {
   width: 18%;

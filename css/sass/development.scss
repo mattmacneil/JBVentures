@@ -631,6 +631,7 @@ footer{
           background-color: $orange;
           color: $white;
           @include texthaze($grey);
+          cursor: pointer;
         }
       }
 
