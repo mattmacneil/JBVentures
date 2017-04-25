@@ -414,7 +414,7 @@ $(function()
 			        "featureType": "poi.park",
 			        "stylers": [
 			            {
-			                "color": "#69c040"
+			                "color": "#75c147"
 			            }
 			        ]
 			    },
@@ -450,7 +450,7 @@ $(function()
 			        "featureType": "poi.park",
 			        "stylers": [
 			            {
-			                "color": "#69c040"
+			                "color": "#75c147"
 			            }
 			        ]
 			    },
