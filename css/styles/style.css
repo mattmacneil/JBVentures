@@ -705,7 +705,8 @@ input, select {
   display: inline-block; }
 
 .u-marbottom-50 {
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  display: inline-block; }
 
 .u-marbottom-125 {
   margin-bottom: 125px; }

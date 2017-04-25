@@ -185,94 +185,108 @@
 
 	</div><!-- new row city -->
 
+</div><!-- section pad -->
 
-</div>
+
+	<div class="u-Section-Pad u-Fill-lightgrey">
+
+		<span class="headliner u-marbottom-50">Advisory board:</span>
+
+	<div class="newrowcity u-Color-white">
+
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Sundaram">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Eash Sundaram</span><br />
+							<span>EVP Innovation @jetblue</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
+
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--StGeorge">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Marty St.George</span><br />
+							<span>EVP Commercial & Planning @jetblue</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
+
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Nelson">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Brandon Nelson</span><br />
+							<span>VP Associate General Counsel @jetblue</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
+
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Elder">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Nancy Elder</span><br />
+							<span>VP Public Relations @jetblue</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
+
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Priest">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Steve Priest</span><br />
+							<span>CFO @jetblue</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
+
+		<div class="newrowcityperson" style="visibility: hidden;">
+		</div><!-- person slug -->
+
+	</div><!-- new row city -->
+
+</div><!-- section pad -->
 
 </div><!-- section wrap (crew profiles) -->
-
-<div class="u-Fill-lightgrey">
-
-	<div class="u-Section-wrap u-Section-Pad">
-
-		<span class="headliner u-marbottom-25 u-Color-darkblue">Advisory board:</span><br /><br />
-
-		<div class="Advisory-board-wrapper">
-
-			<div class="Advisory-portrait Crew-image--Sundaram">
-				<a href="XXX" target="_blank" class="noline">
-				<div class="Advisory-portrait-content">
-					<div class="Advisory-portrait-content-overlay">
-						<div class="Advisory-portrait-link">
-						</div><!-- advisory portrait link -->
-						<div class="Advisory-portrait-name">
-							Eash Sundaram
-						</div><!-- advisory portrait name -->
-					</div><!-- advisory portrait content overlay -->
-				</div><!-- advisory portrait content -->
-				</a>
-			</div><!-- advisory portrait -->
-
-			<div class="Advisory-portrait Crew-image--StGeorge">
-				<a href="XXX" target="_blank" class="noline">
-				<div class="Advisory-portrait-content">
-					<div class="Advisory-portrait-content-overlay">
-						<div class="Advisory-portrait-link">
-						</div><!-- advisory portrait link -->
-						<div class="Advisory-portrait-name">
-							Marty St. George
-						</div><!-- advisory portrait name -->
-					</div><!-- advisory portrait content overlay -->
-				</div><!-- advisory portrait content -->
-				</a>
-			</div><!-- advisory portrait -->
-
-			<div class="Advisory-portrait Crew-image--Nelson">
-				<a href="XXX" target="_blank" class="noline">
-				<div class="Advisory-portrait-content">
-					<div class="Advisory-portrait-content-overlay">
-						<div class="Advisory-portrait-link">
-						</div><!-- advisory portrait link -->
-						<div class="Advisory-portrait-name">
-							Brandon Nelson
-						</div><!-- advisory portrait name -->
-					</div><!-- advisory portrait content overlay -->
-				</div><!-- advisory portrait content -->
-				</a>
-			</div><!-- advisory portrait -->
-
-			<div class="Advisory-portrait Crew-image--Elder">
-				<a href="XXX" target="_blank" class="noline">
-				<div class="Advisory-portrait-content">
-					<div class="Advisory-portrait-content-overlay">
-						<div class="Advisory-portrait-link">
-						</div><!-- advisory portrait link -->
-						<div class="Advisory-portrait-name">
-							Nancy Elder
-						</div><!-- advisory portrait name -->
-					</div><!-- advisory portrait content overlay -->
-				</div><!-- advisory portrait content -->
-				</a>
-			</div><!-- advisory portrait -->
-
-			<div class="Advisory-portrait Crew-image--Priest">
-				<a href="XXX" target="_blank" class="noline">
-				<div class="Advisory-portrait-content">
-					<div class="Advisory-portrait-content-overlay">
-						<div class="Advisory-portrait-link">
-						</div><!-- advisory portrait link -->
-						<div class="Advisory-portrait-name">
-							Steve Priest
-						</div><!-- advisory portrait name -->
-					</div><!-- advisory portrait content overlay -->
-				</div><!-- advisory portrait content -->
-				</a>
-			</div><!-- advisory portrait -->
-
-		</div><!-- advisory board wrapper -->
-
-	</div><!-- section wrap advisory board -->
-
-</div><!-- advisory board bg -->
 
 <?php 
 
