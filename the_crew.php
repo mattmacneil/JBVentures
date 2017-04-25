@@ -6,151 +6,187 @@
 ?>
 
 <div class="u-Fill-lightgrey Subpage-hero-bg">
-<div class="Subpage-hero-clouds">
+	<div class="Subpage-hero-clouds">
 
-	<div class="u-Section-wrap">
+		<div class="u-Section-wrap">
 
-		<section class="Subpage-hero u-Section-Pad--subhero">
+			<section class="Subpage-hero u-Section-Pad--subhero">
 
-			<span class="headliner u-Color-lightblue" ><span class="u-Color-green">The crew &ndash;<br /></span>meet the team behind JTV.</span>
+				<div class="Nav-active Nav-active--crew">
+				</div><!-- nav active -->
 
-		</section><!-- newSubpage hero -->
+				<span class="headliner u-Color-lightblue" ><span class="u-Color-green">The crew &ndash;<br /></span>meet the team behind JTV.</span>
 
-	</div><!-- section wrap: subpage hero -->
+			</section><!-- newSubpage hero -->
 
-</div><!-- subpage clouds -->
+		</div><!-- section wrap: subpage hero -->
+
+	</div><!-- subpage clouds -->
 </div><!-- subpage bg -->
 
 <div class="u-Section-wrap">
 
-<section class="UnderHero u-Section-Pad">
+	<div class="u-Section-Pad">
 
-	<div class="Layout-left">
+	<div class="newrowcity u-Color-white">
 
-		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Simi">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Bonny Simi</span><br />
+							<span>President</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-		&mdash; Justin Tuggle,<br />
-		Director of Communications, JVC
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Singh">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Raj Singh</span><br />
+							<span>Managing Director</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-	</div><!-- layout left -->
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Sharma">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Ajay Sharma</span><br />
+							<span>Investment Associate</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-	<div class="Layout-right u-Section-Pad--side">
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Heggie">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Christina Heggie</span><br />
+							<span>Investment Associate</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-		<div class="Crew-image-wrapper">
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Schiller">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Anna Schiller</span><br />
+							<span>Investment Associate</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-			<div class="Crew-portrait Crew-image--Simi"></div>
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Posey">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Dana Posey</span><br />
+							<span>Operations Manager</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-			<div class="Crew-details">
-				<span>Bonny Simi</span><br />
-				<span>President</span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--Kilp">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-linkout">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Timo Kilp</span><br />
+							<span>Investment Analyst</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-			<div class="Crew-portrait Crew-image--Singh"></div>
+		<div class="newrowcityperson">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--unknown">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-jobs">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Your profile here</span><br />
+							<span>View open positions &rarr;</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-			<div class="Crew-details">
-				<span>Raj Singh</span><br />
-				<span>Managing Director</span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
+		<div class="newrowcityperson cityperson-hide">
+			<a href="linkedin" class="noline" target="_blank">
+			<div class="newcityperson-image Crew-image--unknown">
+				<div class="newcityperson-content">
+					<div class="newcityperson-content-overlay">
+						<div class="newcityperson-jobs">							
+						</div><!-- newcity person linkout -->
+						<div class="newcityperson-details">
+							<span>Your profile here</span><br />
+							<span>View open positions &rarr;</span>
+						</div><!-- newcity person details -->
+					</div><!-- newcity person content overlay -->
+				</div><!-- newcity person content -->
+			</div><!-- newcityperson image -->
+			</a>
+		</div><!-- newrowciy person -->
 
-			<div class="Crew-portrait Crew-image--Schiller"></div>
+	</div><!-- new row city -->
 
-			<div class="Crew-details">
-				<span>Anna Schiller</span><br />
-				<span>Operating Principal </span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
 
-		</div><!-- crew image wrapper -->
-
-	</div><!-- layout right -->
-
-	<div class="clearfix"></div>
-
-	<div class="Layout-left">
-
-		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
-
-		&mdash; Justin Tuggle,<br />
-		Director of Communications, JVC
-
-	</div><!-- layout left -->
-
-	<div class="Layout-right u-Section-Pad--side">
-
-		<div class="Crew-image-wrapper">
-
-			<div class="Crew-portrait Crew-image--Sharma"></div>
-
-			<div class="Crew-details">
-				<span>Ajay Sharma</span><br />
-				<span>Investment Associate</span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
-
-			<div class="Crew-portrait Crew-image--Heggie"></div>
-
-			<div class="Crew-details">
-				<span>Christina Heggie</span><br />
-				<span>Investment Associate</span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					tel: 555.555.5555<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
-
-			<div class="Crew-portrait Crew-image--Posey"></div>
-
-			<div class="Crew-details">
-				<span>Dana Posey</span><br />
-				<span>Operations Manager</span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					tel: 555.555.5555<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
-
-			<div class="Crew-portrait Crew-image--Kilp"></div>
-
-			<div class="Crew-details">
-				<span>Timo Kilp</span><br />
-				<span>Investment Analyst</span>
-				<div class="Crew-details-links">
-					email@email.com<br />
-					tel: 555.555.5555<br />
-					linkedin:<br />
-					twitter:
-				</div>
-			</div><!-- crew details -->
-
-		</div><!-- crew image wrapper -->
-
-	</div><!-- layout right -->
-
-	<div class="clearfix"></div>
-
-</section><!-- underhero -->
+</div>
 
 </div><!-- section wrap (crew profiles) -->
 

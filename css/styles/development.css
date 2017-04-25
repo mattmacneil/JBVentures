@@ -319,47 +319,90 @@
 
 .Subpage-hero {
   width: 100%;
-  text-shadow: #f1f5f8 1px 0 15px; }
+  text-shadow: #f1f5f8 1px 0 15px;
+  position: relative; }
 
-.Crew-image-wrapper {
+.newrowcity {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between; }
+  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
 
-.Crew-portrait {
-  width: 50%;
-  margin-bottom: 8px;
-  background-size: cover;
-  background-position: center center; }
-  .Crew-portrait:after {
-    content: "";
-    display: inline-block;
-    padding-bottom: 100%; }
+.newrowcityperson {
+  width: 32%;
+  margin-bottom: 15px; }
 
-.Crew-details {
-  width: 50%;
-  background-color: #f1f5f8;
-  margin-bottom: 8px;
-  padding: 25px;
-  position: relative; }
-  .Crew-details span:first-of-type {
-    font-family: "dinblack";
-    display: inline-block;
-    margin-bottom: 10px; }
-
-.Crew-details-links {
-  position: absolute;
+.newcityperson-image {
   width: 100%;
-  right: 0;
-  bottom: 25px;
-  padding: 0 25px;
-  text-align: right; }
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%); }
+  .newcityperson-image:after {
+    content: "";
+    padding-bottom: 100%;
+    display: block; }
+
+.newcityperson-content {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+.newcityperson-content-overlay {
+  width: 100%;
+  height: 100%; }
+
+.newcityperson-details {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 10px 10px 25px 25px;
+  background-color: rgba(19, 42, 79, 0.25);
+  text-shadow: black 1px 0 15px; }
+  .newcityperson-details span:first-of-type {
+    display: inline-block;
+    font-family: "dinbold";
+    padding-bottom: 10px; }
+
+.newcityperson-jobs,
+.newcityperson-linkout {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 50%;
+  height: 25px;
+  background-size: auto 100%;
+  background-position: right top;
+  background-repeat: no-repeat; }
+
+.newcityperson-jobs {
+  background-image: url("../../images/Advisory-portrait-jobs.png"); }
+
+.newcityperson-linkout {
+  background-image: url("../../images/Advisory-portrait-link.png");
+  display: none; }
+
+.newcityperson-content-overlay:hover {
+  background-color: rgba(19, 42, 79, 0.75);
+  -khtml-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s; }
+  .newcityperson-content-overlay:hover .newcityperson-linkout {
+    display: inline-block; }
+  .newcityperson-content-overlay:hover .newcityperson-image {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%); }
 
 .Crew-image--Simi {
   background-image: url("../../images/Crew-image--Simi.jpg"); }
@@ -396,6 +439,9 @@
 
 .Crew-image--Priest {
   background-image: url("../../images/Crew-image--Priest.jpg"); }
+
+.Crew-image--unknown {
+  background-image: url("../../images/Crew-image--unknown.jpg"); }
 
 .Advisory-board-wrapper {
   width: 100%;

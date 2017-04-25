@@ -1,7 +1,6 @@
 @import "vars";
 @import "mixins";
 
-
 .Navigation {
   width: 100%;
   z-index: 9999;
@@ -227,6 +226,34 @@
     a{
       color: $orange;
     }
+  }
+
+// ACTIVE
+
+.Nav-active {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 15px 25px 0 0;
+  border-color: $orange transparent transparent transparent;
+  top: -5px;
+}
+
+  .Nav-active--mission {
+    left: 36.5%;
+  }
+
+  .Nav-active--crew {
+    left: 48.25%;
+  }
+
+  .Nav-active--portfolio {
+    left: 60%
+  }
+
+  .Nav-active--news {
+    left: 71.75%
   }
 
 @media screen and (max-width: 1000px){

@@ -103,7 +103,7 @@
 
 							<a href="our_mission.php">Our mission</a><br />
 							<a href="the_crew.php">The crew</a><br />
-							<a href="XXX">Our portfolio</a><br />
+							<a href="portfolio.php">Our portfolio</a><br />
 							<a href="news.php">Latest news</a><br />
 							<a href="XXX">Connect</a>
 

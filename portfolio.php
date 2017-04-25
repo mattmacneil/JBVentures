@@ -12,10 +12,10 @@
 
 			<section class="Subpage-hero u-Section-Pad--subhero">
 
-				<div class="Nav-active Nav-active--mission">
+				<div class="Nav-active Nav-active--portfolio">
 				</div><!-- nav active -->
 
-				<span class="headliner u-Color-lightblue" ><span class="u-Color-green">Our mission &ndash;<br /></span>see what we care about.</span>
+				<span class="headliner u-Color-lightblue" ><span class="u-Color-green">Our portfolio &ndash;<br /></span>check out our partners.</span>
 
 			</section><!-- newSubpage hero -->
 

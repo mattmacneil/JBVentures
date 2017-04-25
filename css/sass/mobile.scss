@@ -158,6 +158,14 @@
 		display: none;
 	}
 
+	.newrowcityperson {
+		width: 49%;
+	}
+
+	.cityperson-hide {
+		display: none;
+	}
+
 	.Footer-block-social,
 	.Footer-block-home{
 		height: 2em;
@@ -185,6 +193,15 @@
 		width: 100%;
 		padding-left: 0;
 		padding-right: 0;
+	}
+
+	.newrowcityperson {
+		width: 70%;
+		margin-left: 15%;
+	}
+
+	.newcityperson-linkout {
+		display: inline-block;
 	}
 
 	.Footer{

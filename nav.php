@@ -68,7 +68,7 @@
 			</div><!-- navigation linkbar box -->
 
 			<div class="Navigation-linkbar-box t-dinregular">
-				<a href="our_portfolio.php">
+				<a href="portfolio.php">
 				<div class="Navigation-linkbar-box-inner t-dinregular">
 
 					Our <br />portfolio
