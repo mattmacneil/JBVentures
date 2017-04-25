@@ -5,49 +5,19 @@
     include "nav.php";
 ?>
 
-<div class="u-Fill-green divshadow">
+<div class="u-Fill-lightgrey Subpage-hero-bg">
 
-<div class="u-Section-wrap">
+	<div class="u-Section-wrap">
 
-<section class="Hero Hero-crew">
+		<section class="Subpage-hero u-Section-Pad--subhero">
 
-	<div class="Hero-video">
+			<span class="headliner u-Color-lightblue" ><span class="u-Color-green">The crew &ndash;<br /></span>meet the team behind JTV.</span>
 
-		<div class="Hero-overlay">
+		</section><!-- newSubpage hero -->
 
-			<div class="Hero-left u-Color-white greenhaze">
+	</div><!-- section wrap: subpage hero -->
 
-				<h1 class="headliner">Meet us and thus you are set free.</h1>
-
-				<p class="t-dinregular">JetBlue Technology Ventures is the product of a forward-thinking, knowledgeable crew from a diverse set of experiences.</p>
-
-			</div><!-- hero left -->
-
-			<div class="Hero-right">
-
-				<div class="Hero-right-quote u-Color-white">
-
-					&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;
-					<p>&mdash; PJ Bard<br />JVC Board Member</p>
-
-				</div><!-- hero right quote -->
-
-				<div class="Hero-right-widescreen-gutter">
-				</div><!-- hero right widescreen gutter -->
-
-			</div><!-- hero right -->
-
-			<div class="clearfix"></div>
-
-		</div><!-- landing hero overlay -->
-
-	</div><!-- hero video -->
-
-</section><!-- landing hero -->
-
-</div><!-- section wrap (hero) -->
-
-</div><!-- Hero bg -->
+</div><!-- subpage bg -->
 
 <div class="u-Section-wrap">
 
@@ -55,86 +25,200 @@
 
 	<div class="Layout-left">
 
-		<h2 class="headliner u-Color-darkblue">Our portfolio is pretty fly</h2>
+		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
+
+		&mdash; Justin Tuggle,<br />
+		Director of Communications, JVC
 
 	</div><!-- layout left -->
 
 	<div class="Layout-right u-Section-Pad--side">
 
-		<p>JetBlue is a company known for award-winning customer service, delivered by helpful and friendly crewmembers. Future technologies to power seamless customer and crewmember interactions across the entire digital and physical travel experience include personalization, geolocation, customization, messaging, virtual reality, improved tools for our crewmembers to deliver magnificent service or enhanced ways to extend the JetBlue brand and culture.</p>
+		<div class="Crew-image-wrap">
 
-		<p>Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Bonny Simi
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
 
-		<div class="Landing-portfolio-container">
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Raj Singh
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
 
-			<a href="http://flyrlabs.com/" target="_blank"><img src="images/Landing-portfolio-flyr.png" alt="Go to www.flyrlabs.com" /></a>
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Ajay Sharma
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
 
-			<a href="https://filament.com/" target="_blank"><img src="images/Landing-portfolio-filament.png" alt="Go to www.filament.com" /></a>
+		</div><!-- crew image wrap -->
 
-			<a href="http://mozio.com/" target="_blank"><img src="images/Landing-portfolio-mozio.png" alt="Go to www.mozio.com" /></a>
+		<div class="Crew-image-wrap">
 
-		</div><!-- landing portfolio container -->
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Christina Heggie
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
 
-		<div class="Landing-portfolio-container">
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Anna Schiller
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
 
-			<a href="http://zunum.aero/" target="_blank"><img src="images/Landing-portfolio-zunum.png" alt="Go to www.zunum.aero" /></a>
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Dana Posey
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
 
-			<a href="https://www.30secondstofly.com/" target="_blank"><img src="images/Landing-portfolio-claire.png" alt="Go to www.30secondstofly.com" /></a>
+		</div><!-- crew image wrap -->
 
-		</div><!-- landing portfolio container -->
+		<div class="Crew-image-wrap" style="margin-bottom: 0;">
+
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Timo Kilp
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
+
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Anna Schiller
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
+
+			<div class="Crew-image">
+				<a href="linkedin.com" class="noline" target="_blank">
+				<div class="Crew-image-overlay">
+					<div class="Crew-image-name u-Color-white t-dinbold">
+						Dana Posey
+					</div><!-- crew image name -->
+					<div class="Crew-image-link">
+					</div><!-- crew image link -->
+				</div><!-- crew image overlay -->
+				</a>
+			</div><!-- crew image -->
+
+		</div><!-- crew image wrap -->
 
 	</div><!-- layout right -->
 
 	<div class="clearfix"></div>
 
-</section><!-- underhero -->
 
-</div><!-- section wrap (landing portfolio) -->
+	<div class="Layout-left">
 
-<div class="u-Section-wrap">
+		<div style="padding: 25px 0">&nbsp;</div>
 
-<section class="Landing-culture">
+		<h2 class="t-cursive headliner-quotes u-Color-lightblue">&ldquo;It has been just over a year since we launched JetBlue Technology Ventures (JTV) with a mission to invest, incubate and partner with early stage startups at the intersection of technology, travel and hospitality.&rdquo;</h2><br />
 
-	<div class="Landing-culture-overlay">
-
-		<div class="Landing-culture-left u-Section-Pad u-Color-white">
-
-			<h1 class="headliner">Our culture makes us unique</h1>
-
-			<p class="t-dinregular">Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
-
-		</div><!-- landing culture left -->
-
-	</div><!-- landing culture overlay -->
-
-</section><!-- landing culture -->
-
-<section class="UnderHero u-Section-Pad Landing-map">
-
-	<div class="Layout-left Landing-map-left">
-
-		<h3 class="headliner u-Color-darkblue u-marbottom-50">And we&#8217;re in the heart of it all.</h3>
-
-		<p>For an airline with crewmembers in over 100 destinations, our office is pretty easy to find. We’ve tapped into Silicon Valley and are proud to call the region home</p>
-
-		<div class="Landing-map-address">
-
-			<span class="t-dinregular">JetBlue Technology Ventures</span><br />
-			<span>666 Skyway Rd, Suite 420</span><br />
-			<span>San Carlos, CA 94069</span>
-
-		</div><!-- landing map address -->
+		&mdash; Justin Tuggle,<br />
+		Director of Communications, JVC
 
 	</div><!-- layout left -->
 
-	<div class="Layout-right Landing-map-right">
+	<div class="Layout-right u-Section-Pad--side">
 
-		<div class="u-Fill-lightgrey Landing-map-wrapper">
+		<div style="padding: 25px 0">
+			<span class="t-dinbold">Our Advisory Board:</span>
+		</div>
 
-			<div id="Landing-map-gmaps">
-			</div><!-- landing map gmaps -->
+		<div class="Crew-image-wrap">
 
-		</div><!-- landing map -->
+			<div class="Crew-image">
+				<div class="Crew-image-overlay">
+				hi
+				</div><!-- crew image overlay -->
+			</div><!-- crew image -->
+
+			<div class="Crew-image">
+				<div class="Crew-image-overlay">
+				hi
+				</div><!-- crew image overlay -->
+			</div><!-- crew image -->
+
+			<div class="Crew-image">
+				<div class="Crew-image-overlay">
+				hi
+				</div><!-- crew image overlay -->
+			</div><!-- crew image -->
+
+		</div><!-- crew image wrap -->
+
+		<div class="Crew-image-wrap" style="margin-bottom: 0;">
+
+			<div class="Crew-image">
+				<div class="Crew-image-overlay">
+					hi
+				</div><!-- crew image overlay -->
+			</div><!-- crew image -->
+
+			<div class="Crew-image">
+				<div class="Crew-image-overlay">
+					hi
+				</div><!-- crew image overlay -->
+			</div><!-- crew image -->
+
+			<div class="Crew-image">
+				<div class="Crew-image-overlay">
+					hi
+				</div><!-- crew image overlay -->
+			</div><!-- crew image -->
+
+		</div><!-- crew image wrap -->
 
 	</div><!-- layout right -->
 
@@ -142,7 +226,11 @@
 
 </section><!-- underhero -->
 
-</div><!-- section wrap (culture / map) -->
+</section><!-- underhero -->
+
+
+
+</div><!-- section wrap (mission fields) -->
 
 <?php 
 

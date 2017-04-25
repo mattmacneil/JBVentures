@@ -397,6 +397,60 @@
   @include texthaze($lightgrey);
 }
 
+// SUBPAGE CREW
+
+  .Crew-image-wrap {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+
+    .Crew-image{
+      width: 33%;
+      height: 300px;
+      background-color: lightgrey;
+      @include rounded(10px);
+    }
+
+      .Crew-image-overlay {
+        width: 100%;
+        height: 100%;
+        background-color: rgba($darkblue, .25);
+        position: relative;
+        @include rounded(10px);
+      }
+
+        .Crew-image-name {
+          position: absolute;
+          left: 10px;
+          bottom: 25px;
+        }
+
+        .Crew-image-link {
+          position: absolute;
+          right: 0px;
+          top: 25px;
+          width: 100%;
+          height: 20px;
+          background-size: auto 100%;
+          background-repeat: no-repeat;
+          background-position: right 10px top;
+          background-image: url('../../images/Crew-image-link.png');
+          display: none;
+        }
+
+      .Crew-image-overlay:hover{
+        .Crew-image-link{
+          display: inline-block;
+        }
+        @include fader;
+      }
+
 // FOOTER
 
 footer{
@@ -592,4 +646,6 @@ footer{
 .divshadow--light {
   @include divshadow(lighten($grey, 35%));
 }
+
+
 
