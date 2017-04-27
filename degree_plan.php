@@ -95,7 +95,7 @@
 			<span class="classcategory">1. Diversity</span><br />
 			<span class="classname">Intro to Sociology (SC)</span><br />
 			<p>
-				Hello.
+				Explain how good UX / UI crosses cultural barriers, and how it's applied to JBV site.
 			</p>
 		</li>
 
@@ -103,7 +103,7 @@
 			<span class="classcategory">2. Ethics</span><br />
 			<span class="classname">Business Ethics (SL)</span><br />
 			<p>
-				Hello.
+				Describe adherence to trade laws in copy content, and also site accessibility to non-stakeholder users.
 			</p>
 		</li>
 
@@ -111,7 +111,7 @@
 			<span class="classcategory">3. Civic Engagement</span><br />
 			<span class="classname">American Government (SC)</span><br />
 			<p>
-				Hello.
+				Provide rundown of ADA compliance for websites and how it affects ways sites are built, compare to pre-ADA approach to design.
 			</p>
 		</li>
 
@@ -125,7 +125,7 @@
 			<span class="classcategory">1. Human Cultures Course</span><br />
 			<span class="classname">The Civil War and Reconstruction (SC)</span><br />
 			<p>
-				Hello.
+				UNKNOWN APPLICATION
 			</p>
 		</li>
 
@@ -133,7 +133,7 @@
 			<span class="classcategory">2. Human Cultures Course</span><br />
 			<span class="classname">US History I (SC)</span><br />
 			<p>
-				Hello.
+				UNKNOWN APPLICATION
 			</p>
 		</li>
 
@@ -141,7 +141,7 @@
 			<span class="classcategory">3. Human Cultures Course</span><br />
 			<span class="classname">Intro to Psychology (SC)</span><br />
 			<p>
-				Hello.
+				Use psychology to explain UX / UI patterns. i.e, color choices and copy descisions.
 			</p>
 		</li>
 
@@ -149,7 +149,7 @@
 			<span class="classcategory">4. Human Cultures Course</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -163,7 +163,7 @@
 			<span class="classcategory">1. Natural World Course</span><br />
 			<span class="classname">Computer Concepts and Applications</span><br />
 			<p>
-				Hello.
+				Demonstrate server side rendering - draw diagram of dev machine -> server -> terminal
 			</p>
 		</li>
 
@@ -171,7 +171,7 @@
 			<span class="classcategory">2. Natural World Course</span><br />
 			<span class="classname">Intro to Computing (SC)</span><br />
 			<p>
-				Hello.
+				HTML / CSS breakdown of site.
 			</p>
 		</li>
 
@@ -185,7 +185,7 @@
 			<span class="classcategory">1. General Education Elective</span><br />
 			<span class="classname">Human Growth and Development (SC)</span><br />
 			<p>
-				Hello.
+				Explain gestalt applicaton of negative space and rythym of site.
 			</p>
 		</li>
 
@@ -193,7 +193,7 @@
 			<span class="classcategory">2. General Education Elective</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -201,7 +201,7 @@
 			<span class="classcategory">3. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -209,7 +209,7 @@
 			<span class="classcategory">4. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -217,7 +217,7 @@
 			<span class="classcategory">5. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -225,7 +225,7 @@
 			<span class="classcategory">6. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -233,7 +233,7 @@
 			<span class="classcategory">7. General Education Elective </span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				COURSE OPTIONS
 			</p>
 		</li>
 
@@ -247,7 +247,7 @@
 			<span class="classcategory">1. Upper Division</span><br />
 			<span class="classname">Social Psychology (SC)</span><br />
 			<p>
-				Hello.
+				Tie in jetblue values with value of JVC partnership.
 			</p>
 		</li>
 
@@ -255,7 +255,7 @@
 			<span class="classcategory">2. Upper Division</span><br />
 			<span class="classname">Abnormal Psychology (SC)</span><br />
 			<p>
-				Hello.
+				Show application of simplified English to include users with developmental issues.
 			</p>
 		</li>
 
@@ -263,7 +263,7 @@
 			<span class="classcategory">3. Upper Division</span><br />
 			<span class="classname">Research Methods in Psychology (SC)</span><br />
 			<p>
-				Hello.
+				Do UX / UI testing with a small sample group to choose layout changes.
 			</p>
 		</li>
 
@@ -271,7 +271,7 @@
 			<span class="classcategory">4. Upper Division</span><br />
 			<span class="classname">History of the Vietnam War (SC)</span><br />
 			<p>
-				Hello.
+				UNKNOWN APPLICATION
 			</p>
 		</li>
 
