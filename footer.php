@@ -115,7 +115,7 @@
 							<a href="XXX">Careers</a><br />
 							<a href="XXX">Location</a><br />
 							<a href="XXX">Advisory team</a><br />
-							<a href="XXX">Jetblue.com</a><br />
+							<a href="degree_plan.php">Jetblue.com</a><br />
 
 						</div><!-- footer block -->
 

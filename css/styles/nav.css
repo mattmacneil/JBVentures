@@ -209,6 +209,16 @@
   .Navigation-logo-bg {
     background-image: none; } }
 @media screen and (max-width: 850px) {
+  .Nav-active {
+    border-width: 15px 12.5px 0 12.5px;
+    border-color: #orange transparent transparent transparent; }
+
+  .Nav-active--mission {
+    left: 5%; }
+
+  .Nav-active--crew {
+    left: 27.75%; }
+
   .Navigation-newsbar-align {
     text-align: left; }
 
