@@ -767,7 +767,7 @@ input, select {
   height: calc(100vh - 140px);
   min-height: 400px;
   max-height: 800px;
-  background-color: lightgrey;
+  background-color: #f1f5f8;
   clear: both; }
   @media screen and (min-width: 2500px) {
     .Hero {
@@ -1612,5 +1612,3 @@ footer {
 
   .Footer-block-home {
     margin-top: 25px; } }
-
-/*# sourceMappingURL=style.css.map */

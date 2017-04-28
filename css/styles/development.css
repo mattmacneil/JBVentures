@@ -22,7 +22,7 @@
   height: calc(100vh - 140px);
   min-height: 400px;
   max-height: 800px;
-  background-color: lightgrey;
+  background-color: #f1f5f8;
   clear: both; }
   @media screen and (min-width: 2500px) {
     .Hero {
@@ -693,5 +693,3 @@ footer {
   transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   transition-delay: 0.2s;
   box-shadow: 0 2px 5px 0 #bfbfbf; }
-
-/*# sourceMappingURL=development.css.map */

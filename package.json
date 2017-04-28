@@ -1,8 +1,16 @@
 {
   "name": "mm-rungrunt",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "description": "JB Ventures Demo - TESU Capstone.",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattmacneil/jb_ventures.git"
+  },
   "devDependencies": {
     "grunt": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-cssmin": "latest",
     "grunt-contrib-sass": "latest"
   }
 }

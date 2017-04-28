@@ -31,7 +31,7 @@
   height: calc(100vh - 140px);
   min-height: 400px;
   max-height: 800px;
-  background-color: lightgrey;
+  background-color: $lightgrey;
   clear: both;
 
   @media screen and (min-width: 2500px){

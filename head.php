@@ -16,7 +16,7 @@
   <meta name="robots" content="noindex">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/styles/style.css" rel="stylesheet">
+	<link href="css/styles/style.min.css" rel="stylesheet">
   <noscript>
       <link rel="stylesheet" href="css/styles/noscript.css" />
   </noscript>
