@@ -46,7 +46,11 @@
 
 <div class="classlist" style="padding: 0 5% 100px 5%;">
 
-<div style="height: 100px;"></div>
+<div style="height: 75px;"></div>
+
+<span class="headliner u-Color-darkblue" style="font-size: 2em;">TESU Capstone</span><br />
+
+<div style="height: 25px;"></div>
 
 From <a href="http://www2.tesu.edu/syllabus/current/LIB-495/syllabus_LIB-495.html" style="color: blue;" target="_blank">TESU Capstone syllabus</a>:<p>&nbsp;</p>
 Liberal Arts Capstone (LIB-495) provides engagement in a student-centered, content-related learning experience that serves as a summary and synthesis of courses in a student's undergraduate academic career. <span style="font-weight: bold;">Students select an area of interest related to their academic studies and engage in an assignment leading to a research project, creative project, or applied project reflective of comprehensive knowledge gained in undergraduate studies</span> and demonstrate their knowledge of the outcomes of the Bachelor of Arts degree. A capstone presentation and paper culminate the course.
