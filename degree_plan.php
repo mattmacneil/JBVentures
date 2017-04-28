@@ -8,8 +8,10 @@
 <style type="text/css">
 
 .classlist {
-	padding: 0 5% 100px 5%;
-	color: #000;
+	//padding: 0 5% 100px 5%;
+	//color: #000;
+	font-family: "Arial" !important;
+	font-weight: 200;
 }	
 
 	.classlist .headliner {
@@ -34,14 +36,37 @@
 	}
 
 	.classlist p {
-		padding: 0 10%;
+		padding: 0 25% 0 10%;
+		font-size: .9em;
 	}
 
 </style>
 
 <body class="classlist">
 
+<div class="classlist" style="padding: 0 5% 100px 5%;">
+
 <div style="height: 100px;"></div>
+
+From <a href="http://www2.tesu.edu/syllabus/current/LIB-495/syllabus_LIB-495.html" style="color: blue;" target="_blank">TESU Capstone syllabus</a>:<p>&nbsp;</p>
+Liberal Arts Capstone (LIB-495) provides engagement in a student-centered, content-related learning experience that serves as a summary and synthesis of courses in a student's undergraduate academic career. <span style="font-weight: bold;">Students select an area of interest related to their academic studies and engage in an assignment leading to a research project, creative project, or applied project reflective of comprehensive knowledge gained in undergraduate studies</span> and demonstrate their knowledge of the outcomes of the Bachelor of Arts degree. A capstone presentation and paper culminate the course.
+
+
+<ul style="margin-top: 25px; list-style-type: circle; list-style-image: url('images/list.png');">
+	<li style="margin-bottom: 15px;">Determine an issue, problem, information gap, or creative endeavor in your field of inquiry.</li>
+	<li style="margin-bottom: 15px;">Apply research and analysis techniques to the explanation and resolution of an information gap, issue, or problem, by studying or creating a project in your respective field.</li>
+	<li style="margin-bottom: 15px;"><span style="font-weight: bold;">Design a project based on theory and knowledge from courses in your field of study.</span></li>
+	<li style="margin-bottom: 15px;">Synthesize the parts of research to produce a comprehensive, valid result in a concrete format.</li>
+	<li style="margin-bottom: 15px;">Reach conclusions through use of external resources that reflect knowledge.</li>
+	<li style="margin-bottom: 15px;">Present an ethically responsible final project in an academic, professional format, as a bridge to your future work/employment.</li>
+	<li>Demonstrate a comprehension of globally diverse perspectives.</li>
+</ul>
+
+This type of project will require a demonstration using a either a PowerPoint presentation or a video presentation.
+
+<div style="height: 50px;"></div>
+
+<hr style="margin-bottom: 50px;" />
 
 <span class="headliner">Intellectual and Practical Skills</span><br />
 
@@ -185,7 +210,7 @@
 			<span class="classcategory">1. General Education Elective</span><br />
 			<span class="classname">Human Growth and Development (SC)</span><br />
 			<p>
-				Explain gestalt applicaton of negative space and rythym of site.
+				Explain gestalt applicaton of negative space and rhythm of site.
 			</p>
 		</li>
 
@@ -408,6 +433,8 @@
 		</li>
 
 	</ul>
+
+</div>
 
 </body>
 <html>
