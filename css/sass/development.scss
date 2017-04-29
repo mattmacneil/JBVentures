@@ -28,7 +28,10 @@
   width: 100%;
   position: relative;
   min-height: 400px;
-  max-height: 650px;
+  max-height: 675px;
+    @media screen and (max-width: 1350px){
+      max-height: 500px;
+    }
   height: 500px;
   height: calc(100vh - 140px);
   background-color: $lightgrey;
