@@ -1,5 +1,5 @@
 {
-  "name": "mm-rungrunt",
+  "name": "JBVenturesDemo",
   "version": "0.0.1",
   "description": "JB Ventures Demo - TESU Capstone.",
   "license": "UNLICENSED",
@@ -10,7 +10,10 @@
   "devDependencies": {
     "grunt": "latest",
     "grunt-contrib-watch": "latest",
-    "grunt-contrib-cssmin": "latest",
+    "grunt-postcss": "latest",
+    "pixrem": "latest",
+    "autoprefixer": "latest",
+    "cssnano": "latest",
     "grunt-contrib-sass": "latest"
   }
 }

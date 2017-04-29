@@ -1,4 +1,5 @@
 module.exports = function (grunt) {
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -17,29 +18,37 @@ module.exports = function (grunt) {
       }
     },
 
-cssmin: {
-  options: {
-    mergeIntoShorthands: false,
-    roundingPrecision: -1
-  },
-  target: {
-    files: {
-      'css/styles/style.min.css': 'css/styles/style.css'
-    }
-  }
-},
+    postcss: {
+      options: {
+
+        map: {
+            inline: false,
+            annotation: 'css/sass/maps/'
+        },
+
+        processors: [
+          require('pixrem')(), // add fallbacks for rem units
+          require('autoprefixer')({browsers: 'last 10 versions'}),
+          require('cssnano')()
+        ]
+      },
+      dist: {
+        src: 'css/styles/*.css'
+      }
+    },
 
     watch: {
       css: {
         files: '**/*.scss',
-        tasks: ['sass']
+        tasks: ['sass','postcss']
       }
     }
+
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['cssmin','watch']);
+  grunt.registerTask('default', ['watch']);
 };
