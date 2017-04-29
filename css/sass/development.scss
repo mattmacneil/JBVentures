@@ -27,10 +27,10 @@
 .Hero {
   width: 100%;
   position: relative;
+  min-height: 400px;
+  max-height: 650px;
   height: 500px;
   height: calc(100vh - 140px);
-  min-height: 400px;
-  max-height: 800px;
   background-color: $lightgrey;
   clear: both;
 
@@ -42,7 +42,7 @@
   .Hero-landing{
     background-image: url('../../images/Hero-landing.jpg');
     background-size: cover;
-    background-position: right top;
+    background-position: right top; 
   }
 
   .Hero-mission{
