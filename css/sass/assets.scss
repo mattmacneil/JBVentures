@@ -37,6 +37,10 @@ body{
   background-image: $body_background_image;
   overflow-x: hidden !important;
 
+  @media (min-width: 70px) {
+    font-size: 1.1em;
+  }
+
   @media (min-width: 1000px) {
     font-size: 1.25em;
   }
