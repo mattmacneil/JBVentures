@@ -37,7 +37,7 @@ body{
   background-image: $body_background_image;
   overflow-x: hidden !important;
 
-  @media (max-width: 700px) {
+  @media (max-width: 640px) {
     font-size: 1em;
   }
 
