@@ -7,13 +7,16 @@
     "type": "git",
     "url": "https://github.com/mattmacneil/jb_ventures.git"
   },
+
   "devDependencies": {
     "grunt": "latest",
-    "grunt-contrib-watch": "latest",
+    "grunt-contrib-sass": "latest",
     "grunt-postcss": "latest",
-    "pixrem": "latest",
-    "autoprefixer": "latest",
-    "cssnano": "latest",
-    "grunt-contrib-sass": "latest"
+      "pixrem": "latest",
+      "autoprefixer": "latest",
+      "cssnano": "latest",
+    "grunt-contrib-watch": "latest"
   }
+  
 }
+

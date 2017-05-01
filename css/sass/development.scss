@@ -17,7 +17,7 @@
   font-size: 1.25em;
   line-height: 1;
   overflow-y: visible;
-
+ 
   @media screen and (max-width: 850px){
     font-size: 1em;
 
@@ -27,7 +27,7 @@
 .Hero {
   width: 100%;
   position: relative;
-  min-height: 400px;
+  min-height: 500px;
   max-height: 675px;
     @media screen and (max-width: 1350px){
       max-height: 500px;

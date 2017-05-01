@@ -27,7 +27,7 @@ module.exports = function (grunt) {
         },
 
         processors: [
-          require('pixrem')(), // add fallbacks for rem units
+          require('pixrem')(),
           require('autoprefixer')({browsers: 'last 10 versions'}),
           require('cssnano')()
         ]
@@ -42,13 +42,12 @@ module.exports = function (grunt) {
         files: '**/*.scss',
         tasks: ['sass','postcss']
       }
-    }
+    },
 
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-postcss');
   grunt.loadNpmTasks('grunt-contrib-watch');
-
   grunt.registerTask('default', ['watch']);
 };

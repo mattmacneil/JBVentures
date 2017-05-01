@@ -57,6 +57,7 @@ $LOGIN_INFORMATION = array(
   'Bsix',
   'Bee6',
   'bee6',
+  'beesix',
   'BeeSix',
   'Beesix'
 );
