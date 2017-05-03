@@ -28,14 +28,15 @@
   width: 100%;
   height: 400px;
   height: calc(100% - 140px);
-  max-height: 650px;
+  max-height: 750px;
   background-image: url('../../images/Landing-Hero-texture.png');
+  background-color: $lightgrey;
 }
 
 .Landing-Hero_movement {
   width: 100%;
   height: 100%;
-  animation: LandingHeroMovement 20s linear infinite;
+  animation: LandingHeroMovement 30s linear infinite;
   background-image: url('../../images/Landing-Hero_movement.png');
   background-size: auto 100px;
 }
@@ -53,7 +54,7 @@
     width: 100%;
     height: 100%;
     background-color: transparent;
-    background-color: rgba($darkblue, .1);
+    //background-color: rgba($darkblue, .1);
   }
 
   .Landing-Hero_movement--inner {
@@ -66,7 +67,46 @@
     background-size: auto 100px;
   }
 
-    @keyframes LandingHeroCloud{100%{background-position: -3000px bottom;}}
+    @keyframes LandingHeroCloud {
+      100% {
+        background-position: -3000px bottom;
+      }
+    }
+
+    .Landing-Hero-left {
+      width: 36.5%;
+      height: 100%;
+      display: table;
+      float: left;
+    }
+
+      .Landing-Hero-left-align {
+        width: 100%;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        padding: 0 10% 100px 13%;
+        @include texthaze($lightgrey);
+
+        h1 {
+          margin-bottom: 25px;
+        }
+      }
+
+    .Landing-Hero-right {
+      width: 100% - 36.5%;
+      height: 100%;
+      float: left;
+      padding-top: 50px;
+      padding-right: 5%;
+      padding-bottom: 100px + 50px;
+    }
+
+      .Landing-Hero-right-align {
+        width: 100%;
+        height: 100%;
+        //background-color: pink;
+      }
 
 .Hero {
   width: 100%;

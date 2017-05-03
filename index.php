@@ -3,20 +3,6 @@
     include "nav.php";
 ?>
 
-<script type="text/javascript">
-
-    $(document).ready(function () {
-        var x = 0;
-        var y = 0;
-        setInterval(function(){
-            x+=1;
-            y-=1;
-            $('body').css('background-position', x + 'px ' + y + 'px');
-        }, 10);
-    })
-
-</script>
-
 <div class="Landing-Hero-texture">
 
 	<div class="Landing-Hero_movement">
@@ -25,19 +11,29 @@
 
 			<div class="Landing-Hero_movement--inner">
 
-				<div class="u-Section-wrap u-Section-Pad--side">
+				<div class="u-Section-wrap u-Size-100">
 
-					<div class="Layout-left">
+					<div class="Landing-Hero-left">
 
-						hi
+						<div class="Landing-Hero-left-align">
 
-					</div><!-- layout left -->
+							<h1 class="headliner u-Color-darkblue">We&#8217;ve taken off!</h1>
 
-					<div class="Layout-right">
+							<p class="t-dinregular">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
 
-						hi
+						</div><!-- landing hero left align -->
 
-					</div><!-- layout right -->
+					</div><!-- landing hero left -->
+
+					<div class="Landing-Hero-right">
+
+						<div class="Landing-Hero-right-align">
+
+							<p class="u-pslug">hi</p>
+
+						</div><!-- landing hero right align -->
+
+					</div><!-- landing hero right -->
 
 					<div class="clearfix"></div>
 
