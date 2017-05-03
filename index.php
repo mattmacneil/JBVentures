@@ -17,9 +17,9 @@
 
 						<div class="Landing-Hero-left-align">
 
-							<h1 class="headliner u-Color-darkblue">JetBlue Ventures has taken off!</h1>
+							<h1 class="headliner u-Color-darkblue">JetBlue Technology Ventures &mdash; we&rsquo;ve taken off!</h1>
 
-							<p class="t-dinregular">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
+							<!--<p class="t-dinregunlar u-Color-darkblue">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>-->
 
 						</div><!-- landing hero left align -->
 
@@ -29,7 +29,11 @@
 
 						<div class="Landing-Hero-right-align">
 
-							<p class="u-pslug">hi</p>
+							<div class="Landing-hero-hex-1"></div>
+
+							<div class="Landing-hero-hex-2"></div>
+
+							<div class="Landing-hero-hex-3"></div>
 
 						</div><!-- landing hero right align -->
 
@@ -53,7 +57,7 @@
 
 	<div class="Layout-left">
 
-		<h2 class="headliner u-Color-darkblue">Our portfolio is pretty fly</h2>
+		<h2 class="headliner u-Color-darkblue">Our portfolio is pretty fly &hellip;</h2>
 
 	</div><!-- layout left -->
 
@@ -105,7 +109,7 @@
 
 				<div class="Landing-culture-left u-Section-Pad u-Color-white">
 
-					<h1 class="headliner">Our culture makes us unique</h1>
+					<h1 class="headliner">our culture makes us unique &hellip;</h1>
 
 					<p class="t-dinregular">Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
 
@@ -125,7 +129,7 @@
 
 	<div class="Layout-left Landing-map-left">
 
-		<h3 class="headliner u-Color-darkblue u-marbottom-50">And we&#8217;re in the heart of it all.</h3>
+		<h3 class="headliner u-Color-darkblue u-marbottom-50">and we&#8217;re in the heart of it all!</h3>
 
 		<p>For an airline with crewmembers in over 100 destinations, our office is pretty easy to find. We’ve tapped into Silicon Valley and are proud to call the region home</p>
 
