@@ -39,6 +39,7 @@
   animation: LandingHeroMovement 30s linear infinite;
   background-image: url('../../images/Landing-Hero_movement.png');
   background-size: auto 100px;
+  background-repeat: repeat;
 }
 
   @keyframes LandingHeroMovement {
@@ -46,7 +47,7 @@
       background-position: bottom left;
     }
     100% {
-      background-position: top right;
+      background-position: top -125% right;
     }
   }
 
@@ -60,16 +61,16 @@
   .Landing-Hero_movement--inner {
     width: 100%;
     height: 100%;
-    animation:250s LandingHeroCloud infinite linear;
+    animation: 20s LandingHeroCloud infinite linear;
     background-image: url('../../images/Landing-Hero_movement--inner.png');
-    background-position: bottom;
+    background-position: left bottom;
     background-repeat: repeat-x;
     background-size: auto 100px;
   }
 
     @keyframes LandingHeroCloud {
       100% {
-        background-position: -3000px bottom;
+        background-position: right bottom;
       }
     }
 
