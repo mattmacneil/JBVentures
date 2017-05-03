@@ -109,14 +109,14 @@
         position: relative;
         background-image: url('../../images/stripe.png');
         @include rounded(25px);
-        @include divshadow($lightgrey);
+        @include divshadow(lighten($black, 50%));
       }
 
         .Landing-hero-hex-1,
         .Landing-hero-hex-2,
         .Landing-hero-hex-3 {
           width: 60%;
-          height: 75%;
+          height: 73%;
           position: absolute;
           background-size: 70% 100%;
           background-repeat: no-repeat;
@@ -124,21 +124,21 @@
 
         .Landing-hero-hex-1 {
           left: 0;
-          top: 3%;
+          top: 5%;
           background-image: url('../../images/Hero-hex--green.png');
           background-position: right;
         }
 
         .Landing-hero-hex-2 {
           right: 0;
-          top: 3%;
+          top: 5%;
           background-image: url('../../images/Hero-hex--lightblue.png');
           background-position: left;
         }
 
         .Landing-hero-hex-3 {
           left: 20%;
-          bottom: 3%;
+          bottom: 5%;
           background-image: url('../../images/Hero-hex--orange.png');
           background-position: center;
         }
