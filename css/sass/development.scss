@@ -24,6 +24,50 @@
   }
 }
 
+.Landing-Hero-texture {
+  width: 100%;
+  height: 400px;
+  height: calc(100% - 140px);
+  max-height: 650px;
+  background-image: url('../../images/Landing-Hero-texture.png');
+}
+
+.Landing-Hero_movement {
+  width: 100%;
+  height: 100%;
+  animation: LandingHeroMovement 20s linear infinite;
+  background-image: url('../../images/Landing-Hero_movement.png');
+  background-size: auto 100px;
+}
+
+  @keyframes LandingHeroMovement {
+    0% {
+      background-position: bottom left;
+    }
+    100% {
+      background-position: top right;
+    }
+  }
+
+  .Landing-Hero-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-color: rgba($darkblue, .1);
+  }
+
+  .Landing-Hero_movement--inner {
+    width: 100%;
+    height: 100%;
+    animation:250s LandingHeroCloud infinite linear;
+    background-image: url('../../images/Landing-Hero_movement--inner.png');
+    background-position: bottom;
+    background-repeat: repeat-x;
+    background-size: auto 100px;
+  }
+
+    @keyframes LandingHeroCloud{100%{background-position: -3000px bottom;}}
+
 .Hero {
   width: 100%;
   position: relative;

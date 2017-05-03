@@ -3,6 +3,56 @@
     include "nav.php";
 ?>
 
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        var x = 0;
+        var y = 0;
+        setInterval(function(){
+            x+=1;
+            y-=1;
+            $('body').css('background-position', x + 'px ' + y + 'px');
+        }, 10);
+    })
+
+</script>
+
+<div class="Landing-Hero-texture">
+
+	<div class="Landing-Hero_movement">
+
+		<div class="Landing-Hero-overlay">
+
+			<div class="Landing-Hero_movement--inner">
+
+				<div class="u-Section-wrap u-Section-Pad--side">
+
+					<div class="Layout-left">
+
+						hi
+
+					</div><!-- layout left -->
+
+					<div class="Layout-right">
+
+						hi
+
+					</div><!-- layout right -->
+
+					<div class="clearfix"></div>
+
+				</div><!-- section wrap -->
+
+			</div><!-- landing hero movement inner -->
+
+		</div><!-- landing hero overlay -->
+
+	</div><!-- landing ehero movement -->
+
+</div><!-- landing hero texture -->
+
+<div style="height: 300px;"></div>
+
 <div class="u-Fill-green divshadow">
 
 <div class="u-Section-wrap">
