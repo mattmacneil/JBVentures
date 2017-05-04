@@ -107,9 +107,9 @@
         width: 100%;
         height: 100%;
         position: relative;
-        background-image: url('../../images/stripe.png');
+        background-image: url('../../images/sdtripe.png');
         @include rounded(25px);
-        @include divshadow(lighten($black, 50%));
+        //@include divshadow(lighten($black, 60%));
       }
 
         .Landing-hero-hex-1,
@@ -161,8 +161,19 @@
             width: 22%;
             height: 7%;
             position: absolute;
-            background-size: auto 100%;
+            text-align: center;
+            display: table;
           }
+
+            .Landing-hero-label-align {
+              width: 100%;
+              height: 100%;
+              display: table-cell;
+              vertical-align: middle;
+              text-transform: lowercase;
+              font-variant: small-caps;
+              padding-bottom: .25em;
+            }
 
             .Landing-hero-label-1 {
               top: 24.25%;
@@ -178,13 +189,53 @@
             }
 
             .Landing-hero-label-3 {
-              //top: 71%;
+              top: 71%;
               top: 78%;
+              top: 83%;
               left: 39%;
-              background-color: rgba($lightblue, .4);
-              background-size: auto 100%;
-              position: relative;
-              @include rounded(10px);
+
+              .Landing-hero-label-align {
+                width: auto;
+
+                span{
+                  height: 100%;
+                  background-color: rgba($lightblue, .4);
+                  padding: 0 1em .25em 1em;
+                  @include rounded(4px);
+                }
+              }
+            }
+
+          .Landing-hero-icon-1,
+          .Landing-hero-icon-2,
+          .Landing-hero-icon-3 {
+            width: 14%;
+            height: 7%;
+            position: absolute;
+            background-size: auto 100%;
+            text-align: center;
+            display: table;
+            background-size: auto 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+          }
+
+            .Landing-hero-icon-1 {
+              left: 32%;
+              top: 11.5%;
+              background-image: url('../../images/Hero-hex-icon-1.png');
+            }
+
+            .Landing-hero-icon-2 {
+              right: 32%;
+              top: 11.5%;
+              background-image: url('../../images/Hero-hex-icon-2.png');
+            }
+
+            .Landing-hero-icon-3 {
+              left: 43%;
+              top: 73%;
+              background-image: url('../../images/Hero-hex-icon-3.png');
             }
 
 .Hero {

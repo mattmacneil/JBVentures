@@ -2,23 +2,14 @@
     include "head.php";
     include "nav.php";
 ?>
-
 <div class="Landing-Hero-texture">
-
 	<div class="Landing-Hero_movement">
-
 		<div class="Landing-Hero-overlay">
-
 			<div class="Landing-Hero_movement--inner">
-
 				<div class="u-Section-wrap u-Size-100">
-
 					<div class="Landing-Hero-left">
-
 						<div class="Landing-Hero-left-align">
-
-							<h1 class="headliner u-Color-darkblue">We&rsquo;ve taken off!</h1>
-
+							<h1 class="headliner u-Color-darkblue">JTV is ready to take off!</h1>
 							<p class="t-dinregular u-Color-darkblux">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
 						</div><!-- landing hero left align -->
 					</div><!-- landing hero left -->
@@ -28,9 +19,24 @@
 							<div class="Landing-hero-hex-2"></div><!-- landing hero hex -->
 							<div class="Landing-hero-hex-3"></div><!-- landing hero hex -->
 							<div class="Landing-hero-logo"></div><!-- landing hero logo -->
-							<div class="Landing-hero-label-1"></div><!-- landing hero label -->
-							<div class="Landing-hero-label-2"></div><!-- landing hero label -->
-							<div class="Landing-hero-label-3"></div><!-- landing hero label -->
+							<div class="Landing-hero-label-1">
+								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
+									:Technology
+								</div><!-- landing hero label align -->
+							</div><!-- landing hero label -->
+							<div class="Landing-hero-label-2">
+								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
+									:Hospitality
+								</div><!-- landing hero label align -->
+							</div><!-- landing hero label -->
+							<div class="Landing-hero-label-3">
+								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
+									<span>:Travel</span>
+								</div><!-- landing hero label align -->
+							</div><!-- landing hero label -->
+							<div class="Landing-hero-icon-1"></div><!-- landing hero icon -->
+							<div class="Landing-hero-icon-2"></div><!-- landing hero icon -->
+							<div class="Landing-hero-icon-3"></div><!-- landing hero icon -->
 						</div><!-- landing hero right align -->
 					</div><!-- landing hero right -->
 					<div class="clearfix"></div>
