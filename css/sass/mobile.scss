@@ -162,6 +162,11 @@
 
 @media screen and (max-width: 850px){
 
+
+	.Landing-Hero_movement--inner {
+		background-size: auto 75px;
+	}
+
 	.UnderClouds {
 		padding-top: 25px;
 	}
@@ -176,7 +181,7 @@
 	}
 
 		.Landing-Hero-left-align {
-			padding: 50px 10% 0 10%;
+			padding: 50px 5% 0 5%;
 		}
 
 	.Landing-Hero-right {
