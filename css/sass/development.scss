@@ -173,6 +173,7 @@
               text-transform: lowercase;
               font-variant: small-caps;
               padding-bottom: .25em;
+              position: relative;
 
               em {
                 font-size: 1rem;
@@ -221,6 +222,30 @@
               }
             }
 
+              .Landing-hero-label-snipe-1,
+              .Landing-hero-label-snipe-2 {
+                position: absolute;
+                width: 0;
+                height: 0;
+                border-style: solid;
+              }
+
+              $landinglabelsnipe: 20px;
+
+                .Landing-hero-label-snipe-1 {
+                  right: 0;
+                  bottom: 0;
+                  border-width: 0 0 $landinglabelsnipe $landinglabelsnipe;
+                  border-color: transparent transparent $green transparent;
+                }
+
+                .Landing-hero-label-snipe-2 {
+                  left: 0;
+                  bottom: 0;
+                  border-width: $landinglabelsnipe 0 0 $landinglabelsnipe;
+                  border-color: transparent transparent transparent $orange;
+                }
+
           .Landing-hero-icon-1,
           .Landing-hero-icon-2,
           .Landing-hero-icon-3 {
@@ -249,7 +274,7 @@
 
             .Landing-hero-icon-3 {
               left: 43%;
-              top: 73%;
+              top: 72%;
               background-image: url('../../images/Hero-hex-icon-3.png');
             }
 

@@ -10,8 +10,12 @@
 				<div class="u-Section-wrap u-Size-100">
 					<div class="Landing-Hero-left">
 						<div class="Landing-Hero-left-align">
-							<h1 class="headliner u-Color-darkblue">JTV is ready to take off!</h1>
-							<p class="t-dinregular u-Color-darkblux">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
+							<h1 class="headliner u-Color-darkblue">
+								JetBlue Technology Ventures has taken off!
+							</h1>
+							<p class="t-dinregular u-Color-darkblux">
+								JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.
+							</p>
 						</div><!-- landing hero left align -->
 					</div><!-- landing hero left -->
 					<div class="Landing-Hero-right">
@@ -23,11 +27,13 @@
 							<div class="Landing-hero-label-1">
 								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
 									<em class="u-Color-green">#</em>Technology<em>#</em>
+									<div class="Landing-hero-label-snipe-1"></div><!-- landing hero label snipe -->
 								</div><!-- landing hero label align -->
 							</div><!-- landing hero label -->
 							<div class="Landing-hero-label-2">
 								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
 									<em class="u-Color-orange">#</em>Hospitality<em>#</em>
+									<div class="Landing-hero-label-snipe-2"></div><!-- landing hero label snipe -->
 								</div><!-- landing hero label align -->
 							</div><!-- landing hero label -->
 							<div class="Landing-hero-label-3">
