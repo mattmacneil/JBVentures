@@ -9,7 +9,6 @@
 
   @media screen and (max-width: 850px){
     font-size: 2.25em;
-
   }
 }
 
@@ -28,6 +27,7 @@
   width: 100%;
   height: 400px;
   height: calc(100% - 140px);
+  min-height: 628px;
   max-height: 850px;
   background-image: url('../../images/Landing-Hero-texture.png');
   //background-color: $lightgrey;
@@ -87,7 +87,7 @@
         display: table-cell;
         vertical-align: middle;
         padding: 0 10% 100px 13%;
-        @include texthaze($lightgrey);
+        @include texthaze(lighten($grey, 60%));
 
         h1 {
           margin-bottom: 25px;
@@ -132,16 +132,60 @@
         .Landing-hero-hex-2 {
           right: 0;
           top: 5%;
-          background-image: url('../../images/Hero-hex--lightblue.png');
+          background-image: url('../../images/Hero-hex--orange.png');
           background-position: left;
         }
 
         .Landing-hero-hex-3 {
           left: 20%;
           bottom: 5%;
-          background-image: url('../../images/Hero-hex--orange.png');
+          background-image: url('../../images/Hero-hex--lightblue.png');
           background-position: center;
         }
+
+        .Landing-hero-logo {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          background-image: url('../../images/Hero-hex-logo.png');
+          background-position: center 43%;
+          background-repeat: no-repeat;
+          background-size: auto 25%;
+        }
+
+          .Landing-hero-label-1,
+          .Landing-hero-label-2,
+          .Landing-hero-label-3 {
+            width: 22%;
+            height: 7%;
+            position: absolute;
+            background-size: auto 100%;
+          }
+
+            .Landing-hero-label-1 {
+              top: 24.25%;
+              left: 18%;
+              background-color: rgba($green, .5);
+            }
+
+            .Landing-hero-label-2 {
+              top: 24.25%;
+              right: 18%;
+              background-color: rgba($orange, .5);
+
+            }
+
+            .Landing-hero-label-3 {
+              //top: 71%;
+              top: 78%;
+              left: 39%;
+              background-color: rgba($lightblue, .4);
+              background-size: auto 100%;
+              position: relative;
+              @include rounded(10px);
+            }
 
 .Hero {
   width: 100%;

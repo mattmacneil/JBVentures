@@ -17,38 +17,27 @@
 
 						<div class="Landing-Hero-left-align">
 
-							<h1 class="headliner u-Color-darkblue">JetBlue Technology Ventures &mdash; we&rsquo;ve taken off!</h1>
+							<h1 class="headliner u-Color-darkblue">We&rsquo;ve taken off!</h1>
 
-							<!--<p class="t-dinregunlar u-Color-darkblue">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>-->
-
+							<p class="t-dinregular u-Color-darkblux">JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.</p>
 						</div><!-- landing hero left align -->
-
 					</div><!-- landing hero left -->
-
 					<div class="Landing-Hero-right">
-
 						<div class="Landing-Hero-right-align">
-
-							<div class="Landing-hero-hex-1"></div>
-
-							<div class="Landing-hero-hex-2"></div>
-
-							<div class="Landing-hero-hex-3"></div>
-
+							<div class="Landing-hero-hex-1"></div><!-- landing hero hex -->
+							<div class="Landing-hero-hex-2"></div><!-- landing hero hex -->
+							<div class="Landing-hero-hex-3"></div><!-- landing hero hex -->
+							<div class="Landing-hero-logo"></div><!-- landing hero logo -->
+							<div class="Landing-hero-label-1"></div><!-- landing hero label -->
+							<div class="Landing-hero-label-2"></div><!-- landing hero label -->
+							<div class="Landing-hero-label-3"></div><!-- landing hero label -->
 						</div><!-- landing hero right align -->
-
 					</div><!-- landing hero right -->
-
 					<div class="clearfix"></div>
-
 				</div><!-- section wrap -->
-
 			</div><!-- landing hero movement inner -->
-
 		</div><!-- landing hero overlay -->
-
-	</div><!-- landing ehero movement -->
-
+	</div><!-- landing hero movement -->
 </div><!-- landing hero texture -->
 
 <div class="u-Section-wrap">
