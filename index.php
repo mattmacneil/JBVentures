@@ -156,20 +156,6 @@
 
 </div><!-- section wrap (culture / map) -->
 
-<div class="u-Fill-lightgrey">
-
-	<div class="u-Section-wrap">
-
-		<div class="Landing-News u-Section-Pad">
-
-			hi
-
-		</div><!-- landing news -->
-
-	</div><!-- section wrap -->
-
-</div><!-- landing news bg -->
-
 <?php 
 
     include "footer.php";
