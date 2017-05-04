@@ -2,6 +2,7 @@
     include "head.php";
     include "nav.php";
 ?>
+
 <div class="Landing-Hero-texture">
 	<div class="Landing-Hero_movement">
 		<div class="Landing-Hero-overlay">
@@ -21,17 +22,17 @@
 							<div class="Landing-hero-logo"></div><!-- landing hero logo -->
 							<div class="Landing-hero-label-1">
 								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
-									:Technology
+									<em class="u-Color-green">#</em>Technology<em>#</em>
 								</div><!-- landing hero label align -->
 							</div><!-- landing hero label -->
 							<div class="Landing-hero-label-2">
 								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
-									:Hospitality
+									<em class="u-Color-orange">#</em>Hospitality<em>#</em>
 								</div><!-- landing hero label align -->
 							</div><!-- landing hero label -->
 							<div class="Landing-hero-label-3">
 								<div class="Landing-hero-label-align t-dinbold u-Color-lightgrey">
-									<span>:Travel</span>
+									<span><em class="u-Color-lightblue">#</em>Travel<em>#</em></span>
 								</div><!-- landing hero label align -->
 							</div><!-- landing hero label -->
 							<div class="Landing-hero-icon-1"></div><!-- landing hero icon -->
@@ -48,11 +49,11 @@
 
 <div class="u-Section-wrap">
 
-<section class="UnderHero u-Section-Pad">
+<section class="UnderHero u-Section-Pad UnderClouds">
 
 	<div class="Layout-left">
 
-		<h2 class="headliner u-Color-darkblue">Our portfolio is pretty fly &hellip;</h2>
+		<h2 class="headliner u-Color-darkblue">Our portfolio is pretty fly&hellip;</h2>
 
 	</div><!-- layout left -->
 
@@ -104,7 +105,7 @@
 
 				<div class="Landing-culture-left u-Section-Pad u-Color-white">
 
-					<h1 class="headliner">our culture makes us unique &hellip;</h1>
+					<h1 class="headliner">our culture makes us unique&hellip;</h1>
 
 					<p class="t-dinregular">Imagine a travel experience free of bag tags, tickets, lines and instead a connected world that anticipates customer needs, powered by the Internet of Things, artificial intelligence, big data and predictive analytics.</p>
 
@@ -154,6 +155,20 @@
 </section><!-- underhero -->
 
 </div><!-- section wrap (culture / map) -->
+
+<div class="u-Fill-lightgrey">
+
+	<div class="u-Section-wrap">
+
+		<div class="Landing-News u-Section-Pad">
+
+			hi
+
+		</div><!-- landing news -->
+
+	</div><!-- section wrap -->
+
+</div><!-- landing news bg -->
 
 <?php 
 

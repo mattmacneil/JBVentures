@@ -193,14 +193,14 @@
 
 <script type="text/javascript">
 
-$(function()
-{
-     $(".toggleNewsletter").click(function()
-     {
-         $(".NewsletterFields").slideToggle();
-         return false;
-     }); 
-});	
+	$(function()
+	{
+	     $(".toggleNewsletter").click(function()
+	     {
+	         $(".NewsletterFields").slideToggle();
+	         return false;
+	     }); 
+	});	
 
 </script>
 

@@ -173,19 +173,30 @@
               text-transform: lowercase;
               font-variant: small-caps;
               padding-bottom: .25em;
+
+              em {
+                font-size: 1rem;
+              }
+
+              em:last-of-type {
+                visibility: hidden;
+              }
             }
 
             .Landing-hero-label-1 {
               top: 24.25%;
               left: 18%;
               background-color: rgba($green, .5);
+
+              ::selection {
+                background: $green;
+              }
             }
 
             .Landing-hero-label-2 {
               top: 24.25%;
               right: 18%;
               background-color: rgba($orange, .5);
-
             }
 
             .Landing-hero-label-3 {
@@ -194,13 +205,17 @@
               top: 83%;
               left: 39%;
 
+              ::selection {
+                background: $lightblue;
+              }
+
               .Landing-hero-label-align {
                 width: auto;
 
                 span{
                   height: 100%;
                   background-color: rgba($lightblue, .4);
-                  padding: 0 1em .25em 1em;
+                  padding: 0 .75em .25em .75em;
                   @include rounded(4px);
                 }
               }
@@ -596,6 +611,11 @@
       height: 100%;
       border-radius: 10px;
     }
+
+.Landing-News {
+  width: 100%;
+  background-color: $lightgrey;
+}
 
 // SUBPAGE GLOBAL 
 

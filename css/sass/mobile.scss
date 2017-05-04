@@ -1,6 +1,80 @@
 @import "vars";
 @import "mixins";
 
+@media screen and (max-width: 1300px){
+
+	.Landing-hero-hex-1,
+	.Landing-hero-hex-2,
+	.Landing-hero-hex-3 {
+ 		background-size: 80% 100%;
+	}
+
+  	.Landing-hero-label-1,
+  	.Landing-hero-label-2,
+  	.Landing-hero-label-3 {
+    	width: 28%;
+    	height: 6%;
+  	}
+
+  	.Landing-hero-label-1 {
+   		left: 12%;
+  	}
+
+  	.Landing-hero-label-2 {
+   		right: 12%;
+  	}
+
+  	.Landing-hero-label-3 {
+   		left: 36%;
+  	}
+
+  	.Landing-hero-icon-1 {
+  		left: 29%;
+  	}
+
+  	.Landing-hero-icon-2 {
+  		right: 29%;
+  	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	.Landing-hero-hex-1,
+	.Landing-hero-hex-2,
+	.Landing-hero-hex-3 {
+ 		background-size: 90% 100%;
+	}
+
+  	.Landing-hero-label-1,
+  	.Landing-hero-label-2,
+  	.Landing-hero-label-3 {
+    	width: 34%;
+    	height: 5%;
+  	}
+
+  	.Landing-hero-label-1 {
+   		left: 6%;
+  	}
+
+  	.Landing-hero-label-2 {
+   		right: 6%;
+  	}
+
+  	.Landing-hero-label-3 {
+   		left: 33%;
+  	}
+
+  	.Landing-hero-icon-1 {
+  		left: 25%;
+  	}
+
+  	.Landing-hero-icon-2 {
+  		right: 25%;
+  	}
+
+}
+
 @media screen and (min-width: 2000px){
 
 .Hero-right-widescreen-gutter,
@@ -87,6 +161,29 @@
 } // 935
 
 @media screen and (max-width: 850px){
+
+	.UnderClouds {
+		padding-top: 25px;
+	}
+
+	.Landing-Hero-texture {
+		height: auto;
+		min-height: 0;
+	}
+
+	.Landing-Hero-left {
+		width: 100%;
+	}
+
+		.Landing-Hero-left-align {
+			padding: 50px 10% 0 10%;
+		}
+
+	.Landing-Hero-right {
+		width: 100%;
+		height: 400px;
+		padding: 25px 20% 75px 20%;	
+	}
 
 	.Hero {
 		height: auto;
@@ -184,6 +281,16 @@
 
 @media screen and (max-width: 700px){
 
+	.Landing-Hero-left-align {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
+	.Landing-Hero-right {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
 	.Layout-left{
 		width: 100%;
 		margin-bottom: 50px;
@@ -226,6 +333,11 @@
 } // 700
 
 @media screen and (max-width: 500px){
+
+	.Landing-Hero-right {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
 
 	.Footer-block-container{
 		-webkit-box-orient: vertical;
