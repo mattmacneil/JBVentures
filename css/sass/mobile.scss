@@ -167,6 +167,11 @@
 		background-size: auto 75px;
 	}
 
+    .Landing-hero-label-snipe-1,
+    .Landing-hero-label-snipe-2 {
+    	display: none;
+    }
+
 	.UnderClouds {
 		padding-top: 25px;
 	}
@@ -335,8 +340,8 @@
 @media screen and (max-width: 500px){
 
 	.Landing-Hero-right {
-		padding-left: 5%;
-		padding-right: 5%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 
 	.Footer-block-container{
