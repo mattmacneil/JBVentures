@@ -11,7 +11,7 @@
 					<div class="Landing-Hero-left">
 						<div class="Landing-Hero-left-align">
 							<h1 class="headliner u-Color-darkblue">
-								JetBlue Technology Ventures has taken off!
+								JBV has taken off!
 							</h1>
 							<p class="t-dinregular u-Color-darkblux">
 								JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.
