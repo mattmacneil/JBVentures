@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<title>
-		JetBlue Technology Ventures &#124; Technology, Travel and Hospitality
+		JetBlue Technology Ventures &#124; The Intersection of Technology, Travel and Hospitality
 	</title>
   <link rel="shortcut icon" type="image/x-icon" href="images/favicon32.png">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -50,5 +50,7 @@
     ##########################################
 
     04/13/17 - Update robots.txt, remove meta noindex.
+
+    up to date 05/07/17
 
 -->

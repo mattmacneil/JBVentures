@@ -27,7 +27,7 @@
   width: 100%;
   height: 400px;
   height: calc(100% - 140px);
-  min-height: 628px;
+  min-height: 600px;
   max-height: 850px;
   background-image: url('../../images/Landing-Hero-texture.png');
   //background-color: $lightgrey;
@@ -51,11 +51,16 @@
     }
   }
 
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+       .Landing-Hero_movement {
+        animation: none;
+       } 
+    }
+
   .Landing-Hero-overlay {
     width: 100%;
     height: 100%;
     background-color: transparent;
-    //background-color: rgba($darkblue, .1);
   }
 
   .Landing-Hero_movement--inner {
@@ -109,7 +114,6 @@
         position: relative;
         background-image: url('../../images/sdtripe.png');
         @include rounded(25px);
-        //@include divshadow(lighten($black, 60%));
       }
 
         .Landing-hero-hex-1,
