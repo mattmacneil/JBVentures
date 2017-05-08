@@ -6,8 +6,6 @@
 <style type="text/css">
 
 .classlist {
-	//padding: 0 5% 100px 5%;
-	//color: #000;
 	font-family: "Arial" !important;
 	font-weight: 200;
 }	
@@ -36,6 +34,11 @@
 	.classlist p {
 		padding: 0 25% 0 10%;
 		font-size: .9em;
+	}
+
+	.classlist .alert {
+		color: #F06444;
+		text-transform: uppercase;
 	}
 
 </style>
@@ -152,7 +155,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">1. Human Cultures Course</span><br />
 			<span class="classname">The Civil War and Reconstruction (SC)</span><br />
 			<p>
-				UNKNOWN APPLICATION
+				<span class="alert">NO CLEAR APPLICATION</span>
 			</p>
 		</li>
 
@@ -160,7 +163,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">2. Human Cultures Course</span><br />
 			<span class="classname">US History I (SC)</span><br />
 			<p>
-				UNKNOWN APPLICATION
+				<span class="alert">NO CLEAR APPLICATION</span>
 			</p>
 		</li>
 
@@ -220,7 +223,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">2. General Education Elective</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				COURSE OPTIONS
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
@@ -228,7 +231,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">3. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				COURSE OPTIONS
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
@@ -236,7 +239,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">4. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				COURSE OPTIONS
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
@@ -244,7 +247,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">5. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				COURSE OPTIONS
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
@@ -252,7 +255,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">6. General Education Elective	</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				COURSE OPTIONS
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
@@ -260,7 +263,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">7. General Education Elective </span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				COURSE OPTIONS
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
@@ -298,7 +301,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">4. Upper Division</span><br />
 			<span class="classname">History of the Vietnam War (SC)</span><br />
 			<p>
-				UNKNOWN APPLICATION
+				<span class="alert">NO CLEAR APPLICATION</span>
 			</p>
 		</li>
 
@@ -306,7 +309,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">5. Upper Division</span><br />
 			<span class="classname">Organizational Behavior (SL)</span><br />
 			<p>
-				Hello.
+				Describe motivational aspects of language used in site to encourage i
 			</p>
 		</li>
 
@@ -320,7 +323,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">1. Lower Division</span><br />
 			<span class="classname">Educational Psychology (SC)</span><br />
 			<p>
-				Hello.
+				Show how patterns emerge throughout site, and how this relates to learned behavior in early development.
 			</p>
 		</li>
 
@@ -328,7 +331,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">2. Lower Division</span><br />
 			<span class="classname">HST4559-Come to America</span><br />
 			<p>
-				Hello.
+				<span class="alert">NO CLEAR APPLICATION</span>
 			</p>
 		</li>
 
@@ -336,7 +339,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">3. Lower Division</span><br />
 			<span class="classname">ECN1115-Prin Macroec</span><br />
 			<p>
-				Hello.
+				Describe what JTV does in the broader sense of investment.
 			</p>
 		</li>
 
@@ -344,7 +347,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">4. Lower Division 100</span><br />
 			<span class="classname">Visual Communications (SO)</span><br />
 			<p>
-				Hello.
+				Create a graph showing the growth of JBV and how it's tied into an overall growth plan. 
 			</p>
 		</li>
 
@@ -352,7 +355,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">5. Lower Division 100</span><br />
 			<span class="classname">Introduction to Art History (SO)</span><br />
 			<p>
-				Hello.
+				Draw out JB palette to show why each color is important, and how these were used in art history to achieve similar means.
 			</p>
 		</li>
 
@@ -366,7 +369,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">1. Free Elective</span><br />
 			<span class="classname">Project Management (SO)</span><br />
 			<p>
-				Hello.
+				Use this course first - use iterative method of project management to explain top to bottom process to rebuild demo JTV site.
 			</p>
 		</li>
 
@@ -374,7 +377,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">2. Free Elective</span><br />
 			<span class="classname">BL4101-Bus Law 1</span><br />
 			<p>
-				Hello.
+				Explain fair use of software that's released as open source for commercial use.
 			</p>
 		</li>
 
@@ -382,7 +385,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">3. Free Elective</span><br />
 			<span class="classname">IT4236-PC Db Sftwr</span><br />
 			<p>
-				Hello.
+				Show table of JTV employees stored in simple database, and how they can be modified or updated.
 			</p>
 		</li>
 
@@ -390,7 +393,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">4. Free Elective</span><br />
 			<span class="classname">BU6203-Intro to Web Publishing</span><br />
 			<p>
-				Hello.
+				Show file system used to maintain site.
 			</p>
 		</li>
 
@@ -398,7 +401,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">5. Free Elective</span><br />
 			<span class="classname">GET1170-Eng Graph 1</span><br />
 			<p>
-				Hello.
+				Display PS wireframes, compare to CAD designs for products.
 			</p>
 		</li>
 
@@ -406,7 +409,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">6. Free Elective</span><br />
 			<span class="classname">BU2104- Financial Accounting</span><br />
 			<p>
-				Hello.
+				Describe the time tracking process / project cost forecasting / maintenace financials.
 			</p>
 		</li>
 
@@ -414,7 +417,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">7. Free Elective</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 	
@@ -422,7 +425,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">8. Free Elective</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 	
@@ -430,7 +433,7 @@ This type of project will require a demonstration using a either a PowerPoint pr
 			<span class="classcategory">9. Free Elective</span><br />
 			<span class="classname">COURSE OPTIONS</span><br />
 			<p>
-				Hello.
+				<span class="alert">No course selected.</span>
 			</p>
 		</li>
 
