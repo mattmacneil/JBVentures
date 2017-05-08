@@ -441,5 +441,6 @@ This type of project will require a demonstration using a either a PowerPoint pr
 
 </div>
 
-</body>
-<html>
+<?php
+    include "footer.php";
+?>
