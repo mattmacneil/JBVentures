@@ -50,7 +50,9 @@
     ##########################################
 
     04/13/17 - Update robots.txt, remove meta noindex.
+    05/07/17 - Fix bug that prevents safari 10+ from expanding
+               landing map to 100% container height. 
 
-    up to date 05/07/17
+    up to date 05/08/17
 
 -->
