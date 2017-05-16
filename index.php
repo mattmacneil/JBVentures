@@ -13,7 +13,7 @@
 								JBV has taken off!
 							</h1>
 							<p class="t-dinregular u-Color-darkblux">
-								JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality.
+								JetBlue Technology Ventures incubates, invests in and partners with early stage startups at the intersection of technology, travel, and hospitality
 							</p>
 						</div><!-- landing hero left align -->
 					</div><!-- landing hero left -->
